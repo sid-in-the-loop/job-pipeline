@@ -1,0 +1,523 @@
+{
+ "ts": "2026-10-01T18:27:03Z",
+ "date": "2026-10-01",
+ "kind": "morning",
+ "scanned": 3230,
+ "kept": 513,
+ "dropped_by_triage": 818,
+ "dropped_by_verify": 7,
+ "verified_out": [
+  {
+   "company": "Anyscale",
+   "role": "Software Engineer, Infrastructure",
+   "url": "https://jobs.ashbyhq.com/anyscale/8691daef-bfe5-4d01-871f-cf2226ba0c82",
+   "evidence": "3+ years of experience writing high-quality production code"
+  },
+  {
+   "company": "Waymo",
+   "role": "Machine Learning Engineer, Driver Refinement & Validation, Perception",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8212478",
+   "evidence": "3+ years experience in Machine Learning and/or Computer Vision"
+  },
+  {
+   "company": "Waymo",
+   "role": "Perception Machine Learning Engineer - Continuous Learning",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8127006",
+   "evidence": "3+ years professional ML/Computer Vision experience"
+  },
+  {
+   "company": "Waymo",
+   "role": "Research Scientist, RL for Autonomous Planning & World Modeling  ",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8165872",
+   "evidence": "3+ years industry or post-doc research experience in Reinforcement Learning or Foundation Models"
+  },
+  {
+   "company": "Waymo",
+   "role": "Research Scientist, World Model Post-Training",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8222098",
+   "evidence": "3+ years of experience with modern deep learning frameworks"
+  },
+  {
+   "company": "Zoox",
+   "role": "Software Engineer - Planner GPU Compute",
+   "url": "https://jobs.lever.co/zoox/5915823a-3546-4748-b102-85e85c0dc71d",
+   "evidence": "BS in computer science or related field and 6+ years of experience"
+  },
+  {
+   "company": "Anthropic",
+   "role": "Applied AI, Research Engineer ",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390811008",
+   "evidence": "6+ years of experience as a Software Engineer, Technical Product Manager, Forward Deployed Engineer, AI startup founder, or similar technical role"
+  }
+ ],
+ "dropped_by_location": 42,
+ "location_out": [
+  {
+   "company": "Scale AI",
+   "role": "Software Engineer New Grad",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005?utm_source=Simplify&ref=Simplify",
+   "location": "London, UK"
+  },
+  {
+   "company": "Arondite",
+   "role": "Deployed Software Engineer New Grad",
+   "url": "https://apply.workable.com/arondite/j/5C5C551ADA/apply?utm_source=Simplify&ref=Simplify",
+   "location": "London, UK"
+  },
+  {
+   "company": "Homey",
+   "role": "Junior Software Engineer - AI-Native",
+   "url": "https://apply.workable.com/homey/j/50DF9B3D53/apply?utm_source=Simplify&ref=Simplify",
+   "location": "London, UK"
+  },
+  {
+   "company": "Cohere",
+   "role": "Member of Technical Staff, Multilingual",
+   "url": "https://jobs.ashbyhq.com/cohere/a87be947-00f0-4a4c-a690-a4922f88f553",
+   "location": "London"
+  },
+  {
+   "company": "Cohere",
+   "role": "Member of Technical Staff, Agentic Environments ",
+   "url": "https://jobs.ashbyhq.com/cohere/8878b0d0-7d88-4ee9-bc17-b0dd237e39a0",
+   "location": "Europe"
+  },
+  {
+   "company": "Cohere",
+   "role": "Software Engineer, Integrations",
+   "url": "https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8",
+   "location": "Europe"
+  },
+  {
+   "company": "Cohere",
+   "role": "Member of Technical Staff - RL Environments ",
+   "url": "https://jobs.ashbyhq.com/cohere/dc523c5b-9477-46c4-a122-4f3b2b8f4b67",
+   "location": "London"
+  },
+  {
+   "company": "Cohere",
+   "role": "Member of Technical Staff, North Modelling (Evals)",
+   "url": "https://jobs.ashbyhq.com/cohere/60de50e9-aba7-4a3a-8cdb-955a456749aa",
+   "location": "London"
+  },
+  {
+   "company": "Fireworks AI",
+   "role": "Applied Machine Learning Engineer, EMEA",
+   "url": "https://jobs.ashbyhq.com/fireworks/e5a9746e-49ac-407f-b953-5cf3c08a7802",
+   "location": "London"
+  },
+  {
+   "company": "Fireworks AI",
+   "role": "Member of Technical Staff (EMEA)",
+   "url": "https://jobs.ashbyhq.com/fireworks/55f8e95c-f1ec-41b1-b387-1b98ff560f57",
+   "location": "London"
+  },
+  {
+   "company": "Scale AI",
+   "role": "Infrastructure Software Engineer, Apps Platform",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729979005",
+   "location": "London, UK"
+  },
+  {
+   "company": "Scale AI",
+   "role": "Software Engineer - New Grad",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005",
+   "location": "Doha, Qatar "
+  },
+  {
+   "company": "Scale AI",
+   "role": "Software Engineer, Platform ",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4731630005",
+   "location": "London, UK"
+  },
+  {
+   "company": "Snowflake",
+   "role": "Software Engineer - Java Platform",
+   "url": "https://jobs.ashbyhq.com/snowflake/23c94498-23c8-4d6e-a1d8-4355bf605663",
+   "location": "DE-Berlin-Trion Building"
+  },
+  {
+   "company": "Snowflake",
+   "role": "Platform Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/snowflake/cbc2087c-f5fc-48b7-8d23-114836a42e3e",
+   "location": "PL-Warsaw-Lixa C"
+  },
+  {
+   "company": "Snowflake",
+   "role": "Software Engineer - Dynamic Tables",
+   "url": "https://jobs.ashbyhq.com/snowflake/99dfc810-9487-4ac1-91a8-50acefd05bae",
+   "location": "DE-Berlin-Trion Building"
+  },
+  {
+   "company": "Snowflake",
+   "role": "Software Engineer",
+   "url": "https://jobs.ashbyhq.com/snowflake/d576a5a4-1409-45fa-b710-db8d52041551",
+   "location": "PL-Warsaw-Lixa C"
+  },
+  {
+   "company": "Snowflake",
+   "role": "Software Engineer AI Team",
+   "url": "https://jobs.ashbyhq.com/snowflake/9003f845-850a-4786-a422-ec9632fe0141",
+   "location": "PL-Warsaw-Lixa C"
+  },
+  {
+   "company": "Anthropic",
+   "role": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412334008",
+   "location": "Z\u00fcrich, CH"
+  },
+  {
+   "company": "OpenAI",
+   "role": "Software Engineer, Model Deployment- ChatGPT Engineering",
+   "url": "https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b",
+   "location": "London, UK"
+  },
+  {
+   "company": "OpenAI",
+   "role": "Applied AI Engineer, Startups (Codex)",
+   "url": "https://jobs.ashbyhq.com/openai/840963bb-7b1a-4021-91a0-40baf71b7e20",
+   "location": "London, UK"
+  },
+  {
+   "company": "ElevenLabs",
+   "role": "Research Engineer - Inference",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/2d7f9a7c-a9e6-4877-bb38-34e4d989054c",
+   "location": "United Kingdom"
+  },
+  {
+   "company": "ElevenLabs",
+   "role": "Safety Engineer - Free Tier Abuse",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/3b57cc5c-f019-4a0b-a5ff-e1046e4f1fa1",
+   "location": "United Kingdom"
+  },
+  {
+   "company": "ElevenLabs",
+   "role": "Research Engineer - Web Crawlers",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/a89a7892-3d9d-40ab-a3f1-1c6ed1f7b84f",
+   "location": "United Kingdom"
+  },
+  {
+   "company": "ElevenLabs",
+   "role": "Research Engineer - Data Infrastructure",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/9fbd9227-57e0-4221-9255-1a1d967be8ed",
+   "location": "United Kingdom"
+  },
+  {
+   "company": "ElevenLabs",
+   "role": "Developer Experience Engineer",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/d16a7ad6-ffbd-4655-8716-4872263f99ce",
+   "location": "London"
+  },
+  {
+   "company": "Perplexity",
+   "role": "Member of Technical Staff (Machine Learning Research Engineer)",
+   "url": "https://jobs.ashbyhq.com/perplexity/1a3df802-9238-4827-ab1f-12a9d1e4b81c",
+   "location": "Berlin"
+  },
+  {
+   "company": "Perplexity",
+   "role": "Member of Technical Staff (Machine Learning Engineer, Ranking Quality - Search)",
+   "url": "https://jobs.ashbyhq.com/perplexity/19d8bcfd-e493-4b3a-b8fd-11a2a6502da2",
+   "location": "Belgrade"
+  },
+  {
+   "company": "Perplexity",
+   "role": "Member of Technical Staff (Search Core, Indexing & Data Pipeline Stream) ",
+   "url": "https://jobs.ashbyhq.com/perplexity/89750227-f7fe-4e9f-bcdd-eada353163fd",
+   "location": "Belgrade"
+  },
+  {
+   "company": "xAI",
+   "role": "Infrastructure Security Engineer - London ",
+   "url": "https://job-boards.greenhouse.io/xai/jobs/5241280007",
+   "location": "Dublin, Ireland; London, England, United Kingdom"
+  },
+  {
+   "company": "NVIDIA",
+   "role": "NVIDIA 2027 New College Graduate: Software Engineering - China",
+   "url": "https://jobs.nvidia.com/careers/job/893397234848",
+   "location": "Shanghai, Shanghai, CN, Beijing, Beijing, CN, Shenzhen, Guangdong, CN"
+  },
+  {
+   "company": "NVIDIA",
+   "role": "NVIDIA 2027 New College Graduate: Autonomous Vehicles and Robotics - China",
+   "url": "https://jobs.nvidia.com/careers/job/893397234851",
+   "location": "Shanghai, Shanghai, CN, Beijing, Beijing, CN, Shenzhen, Guangdong, CN"
+  },
+  {
+   "company": "NVIDIA",
+   "role": "NVIDIA 2027 New College Graduate: Deep Learning and High-Performance Computing Engineering - China",
+   "url": "https://jobs.nvidia.com/careers/job/893397234840",
+   "location": "Shanghai, Shanghai, CN, Beijing, Beijing, CN, Shenzhen, Guangdong, CN"
+  },
+  {
+   "company": "NVIDIA",
+   "role": "Developer Technology Engineer \u2013 AI",
+   "url": "https://jobs.nvidia.com/careers/job/893397817901",
+   "location": "Shanghai, Shanghai, CN, Beijing, Beijing, CN, Shenzhen, Guangdong, CN"
+  },
+  {
+   "company": "Mistral",
+   "role": "Research Engineer, Machine Learning",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/0e578cff-741d-4870-9c2c-aac85f9de266",
+   "location": "Paris"
+  },
+  {
+   "company": "Mistral",
+   "role": "Applied AI Engineer, Prototyping",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/52e1cc10-dfe0-4361-81c1-227f70f61e20",
+   "location": "Paris"
+  },
+  {
+   "company": "Mistral",
+   "role": "Applied AI Engineer, AI for Mistral",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/b85acb55-fe6d-4f63-80bb-6309dd26ec58",
+   "location": "Paris"
+  },
+  {
+   "company": "Mistral",
+   "role": "Research Engineer, Forge",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/1808c0af-7352-4d0b-9e35-d3d6704e4759",
+   "location": "Paris"
+  },
+  {
+   "company": "Mistral",
+   "role": "Research Engineer - Cybersecurity (RL Environments)",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/818ab64d-6d6d-4e3e-9f6c-cc50ffd3e76c",
+   "location": "Paris"
+  },
+  {
+   "company": "Mistral",
+   "role": "Applied AI Engineer, Australia",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/ece48460-4c38-4f0e-880d-7dae96b2ad7d",
+   "location": "Sydney"
+  },
+  {
+   "company": "Mistral",
+   "role": "Applied Science - Research Engineer (Robotics)",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233",
+   "location": "Singapore"
+  },
+  {
+   "company": "Mistral",
+   "role": "Applied AI Engineer, Robotics",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
+   "location": "Singapore"
+  }
+ ],
+ "updated": 1,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [
+  {
+   "company": "Roblox",
+   "role": "Software Engineer - GenAI Platform",
+   "url": "https://careers.roblox.com/jobs/8171283?gh_jid=8171283",
+   "why": "ML/GenAI platform role, fresh, no red flags"
+  },
+  {
+   "company": "OpenAI",
+   "role": "Software Engineer - Applied Emerging Talent - 2027",
+   "url": "https://jobs.ashbyhq.com/openai/55150071-fce8-48f5-aea4-14ed78b83511",
+   "why": "Frontier lab (Tier M), fresh posting"
+  },
+  {
+   "company": "Amazon",
+   "role": "Software Dev Engineer I - Graviton Software - Annapurna Labs",
+   "url": "https://www.amazon.jobs/jobs/10526808/apply",
+   "why": "Annapurna Labs Tier M brand; 27d old"
+  },
+  {
+   "company": "Snap",
+   "role": "Software Engineer - ML Infrastructure - Content Retrieval Platform - Level 4",
+   "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Palo-Alto-California/Software-Engineer--ML-Infrastructure_R0046629-1",
+   "why": "ML infrastructure role match; 30d old"
+  },
+  {
+   "company": "Quora",
+   "role": "Software Engineer New Grad - Machine Learning Platform - Quora - Remote",
+   "url": "https://jobs.ashbyhq.com/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
+   "why": "ML platform role, fresh, remote US"
+  },
+  {
+   "company": "Nuro",
+   "role": "Software Engineer - Performance Tooling and Infrastructure New Grad",
+   "url": "https://nuro.ai/careersitem?gh_jid=8227399",
+   "why": "Nuro=Tier M, perf/infra SWE, CA new grad"
+  },
+  {
+   "company": "Together AI",
+   "role": "Software Engineer - New Grad - 2027",
+   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5211582007",
+   "why": "Together AI=Tier M startup, new grad SWE, SF"
+  },
+  {
+   "company": "Crusoe",
+   "role": "Software Engineer I - Network",
+   "url": "https://jobs.ashbyhq.com/crusoe/9a5223c4-9eb7-4fdb-b97c-f43525df35ed",
+   "why": "Crusoe=GPU/AI cloud infra, Tier M work, SF"
+  },
+  {
+   "company": "Domino Data Lab",
+   "role": "Software Engineer - New Grad - 2027",
+   "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/7992556?gh_jid=7992556",
+   "why": "Domino=ML platform/infra, Tier M, new grad remote"
+  },
+  {
+   "company": "Replit",
+   "role": "Software Engineer - New Grad - 2027",
+   "url": "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc",
+   "why": "Replit builds AI coding agents, CA, strong Tier M fit"
+  },
+  {
+   "company": "Scale AI",
+   "role": "Software Engineer - New Grad",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005",
+   "why": "Scale AI = frontier AI data/eval infra, SF, strong fit"
+  },
+  {
+   "company": "Sierra",
+   "role": "Software Engineer - Agent - New Grad 2027",
+   "url": "https://jobs.ashbyhq.com/sierra/149f368c-52d5-408f-ba26-ad888f318a00",
+   "why": "Sierra agent systems startup, SF, strong Tier M fit"
+  },
+  {
+   "company": "Composio",
+   "role": "Fullstack Engineer - Product Team - New Grad",
+   "url": "https://jobs.ashbyhq.com/composio/01e0e7ad-44a2-44e8-9340-64ca70eff491",
+   "why": "Composio = agent tooling infra, SF, strong Tier M fit"
+  },
+  {
+   "company": "Nuro",
+   "role": "Software Engineer - ML Infrastructure Platform",
+   "url": "https://nuro.ai/careersitem?gh_jid=8122483",
+   "why": "Tier M (listed), ML infra role, Mountain View CA"
+  },
+  {
+   "company": "Nuro",
+   "role": "Software Engineer - ML Inference Platform",
+   "url": "https://nuro.ai/careersitem?gh_jid=8122537",
+   "why": "Tier M (listed), inference infra role, Mountain View CA"
+  },
+  {
+   "company": "Anysphere",
+   "role": "Software Engineer New Grad - 2027",
+   "url": "https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b/application?embed=true&utm_source=Simplify&ref=Simplify",
+   "why": "Tier M (listed, Cursor), SF/NYC, strong fit"
+  },
+  {
+   "company": "Sierra",
+   "role": "Software Engineer New Grad - Agent",
+   "url": "https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00/application?embed=true&utm_source=Simplify&ref=Simplify",
+   "why": "AI agent-systems startup, Tier M, SF/NYC"
+  },
+  {
+   "company": "ByteDance",
+   "role": "Backend Inference Runtime Engineer New Grad - AML Inference",
+   "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+   "why": "Clear ML inference infra role, Tier M, San Jose"
+  },
+  {
+   "company": "Qualcomm",
+   "role": "Machine Learning Engineer New Grad - AI Processors - Machine Learning Engineering",
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721063770?utm_source=Simplify&ref=Simplify",
+   "why": "Qualcomm AI-processor MLE, frontier AI silicon work."
+  },
+  {
+   "company": "Applied Intuition",
+   "role": "Research Engineer New Grad \ud83c\udf93",
+   "url": "https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39/application?embed=true&utm_source=Simplify&ref=Simplify",
+   "why": "Applied Intuition research engineer, frontier AV/sim ML work."
+  },
+  {
+   "company": "Micron Technology",
+   "role": "AI Innovation Research Engineer New Grad \ud83c\udf93",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/New-College-Grad---AI-Innovation-Research-Engineer_JR108594?utm_source=Simplify&ref=Simplify",
+   "why": "Micron AI Innovation Research Engineer, exact target role, frontier."
+  },
+  {
+   "company": "ByteDance",
+   "role": "Large Language Model Inference System Engineer New Grad - Applied Machine Learning",
+   "url": "https://jobs.bytedance.com/en/position/7667726338627356933/detail?utm_source=Simplify&ref=Simplify",
+   "why": "ByteDance LLM inference systems, exactly frontier infra work."
+  },
+  {
+   "company": "Preference Model",
+   "role": "Member of Technical Staff New Grad - Machine Learning Capabilities \ud83c\udf93",
+   "url": "https://jobs.ashbyhq.com/Preference-Model/44642065-e592-44ba-810d-a019703463b6/application?utm_source=Simplify&ref=Simplify",
+   "why": "Preference Model MTS, exact post-training target role, frontier AI co."
+  },
+  {
+   "company": "Snowflake",
+   "role": "AI Research Scientist, New Grad \u2013 Agents & Reinforcement Learning",
+   "url": "https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698",
+   "why": "AI research scientist, new grad, agents & RL, exact match"
+  },
+  {
+   "company": "Decagon",
+   "role": " Member of Technical Staff - New Grad (2027 Start)",
+   "url": "https://jobs.ashbyhq.com/decagon/a8ff946f-d6b1-4059-bc9f-fe6b11504f2f",
+   "why": "explicit 2027 new-grad MTS at Tier M startup"
+  }
+ ],
+ "untriaged": [],
+ "errors": [],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "New: 513 added, 0 updated (from watchlist + curated new-grad lists); 818 dropped by triage, 7 dropped by eligibility verify, 42 dropped by location (non-US/Canada)\n\n\u2605 Apply first (25 starred total, top 8 shown \u2014 rest are in the sheet, Fit\u22654):\n  - Roblox \u2014 Software Engineer - GenAI Platform (ML/GenAI platform role, fresh, no red flags)\n  - OpenAI \u2014 Software Engineer - Applied Emerging Talent - 2027 (Frontier lab (Tier M), fresh posting)\n  - Amazon \u2014 Software Dev Engineer I - Graviton Software - Annapurna Labs (Annapurna Labs Tier M brand; 27d old)\n  - Snap \u2014 Software Engineer - ML Infrastructure - Content Retrieval Platform - Level 4 (ML infrastructure role match; 30d old)\n  - Quora \u2014 Software Engineer New Grad - Machine Learning Platform - Quora - Remote (ML platform role, fresh, remote US)\n  - Nuro \u2014 Software Engineer - Performance Tooling and Infrastructure New Grad (Nuro=Tier M, perf/infra SWE, CA new grad)\n  - Together AI \u2014 Software Engineer - New Grad - 2027 (Together AI=Tier M startup, new grad SWE, SF)\n  - Crusoe \u2014 Software Engineer I - Network (Crusoe=GPU/AI cloud infra, Tier M work, SF)\n  ...and 17 more starred rows in SWE/MLE \u2014 sort by Fit in the sheet to see them all.\n\nOA/interview: DatologyAI \u2014 Research Scientist: intro screen done, user already replied asking for next steps; ball is in the recruiter's court, no deadline stated, no action needed from you.\n\nFollow-ups due: none (first run, nothing outstanding yet).\n\nErrors:\n  - 5 watchlist sources failed outright: Google (robots.txt disallows the only server-rendered path), Tesla (Akamai blocks all paths incl. robots.txt), Meta (robots.txt explicitly forbids scraping), Groq (Greenhouse board 404s \u2014 likely their reported hiring freeze), Modular (careers page is fully client-rendered, no ATS found). None of these contributed candidates this run.\n  - Eligibility verification was capped at 60 postings (config verify.max_urls); 232 additional fit>=3 candidates exceeded the cap and are UNVERIFIED this run \u2014 they're on the sheet unstarred/unflagged for newgrad status, not dropped. Consider raising verify.max_urls in config.seed.json if you want deeper verification coverage per run (tradeoff: more fetches = longer runs).\n  - 5 of the 11 new watchlist additions (NVIDIA, Meta, Mistral, SambaNova, Modular, SSI, Reflection) had no resolvable ATS feed and were hand-walked this run only \u2014 Groq and Modular genuinely failed, the rest (Reflection, Mistral, SambaNova, NVIDIA, SSI) were resolved manually but the resolved feed URLs were NOT persisted back to watchlist.csv (that's capture's job, not morning-brief's) \u2014 tomorrow's run will re-walk them as manual sources unless the watchlist is updated by hand or via a capture run.\n"
+}

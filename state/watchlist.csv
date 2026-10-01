@@ -1,43 +1,43 @@
 Company,Feed URL,Type,Signal,Added,Last Hit
-Anyscale,https://api.ashbyhq.com/posting-api/job-board/anyscale,ashby,,2026-10-01,
-Baseten,https://api.ashbyhq.com/posting-api/job-board/baseten,ashby,,2026-10-01,
-Cerebras,https://api.ashbyhq.com/posting-api/job-board/cerebras,ashby,,2026-10-01,
-Cohere,https://api.ashbyhq.com/posting-api/job-board/cohere,ashby,,2026-10-01,
-CoreWeave,https://boards-api.greenhouse.io/v1/boards/coreweave/jobs,greenhouse,,2026-10-01,
-Databricks,https://boards-api.greenhouse.io/v1/boards/databricks/jobs,greenhouse,,2026-10-01,
-etched,https://api.ashbyhq.com/posting-api/job-board/etched,ashby,,2026-10-01,
-Fireworks AI,https://api.ashbyhq.com/posting-api/job-board/fireworks,ashby,,2026-10-01,
-Kodiak,https://boards-api.greenhouse.io/v1/boards/kodiak/jobs,greenhouse,,2026-10-01,
-Lambda,https://api.ashbyhq.com/posting-api/job-board/lambda,ashby,,2026-10-01,
-Mercor,https://api.ashbyhq.com/posting-api/job-board/mercor,ashby,,2026-10-01,
-Modal,https://api.ashbyhq.com/posting-api/job-board/modal,ashby,,2026-10-01,
-nuro,https://boards-api.greenhouse.io/v1/boards/nuro/jobs,greenhouse,,2026-10-01,
-Scale AI,https://boards-api.greenhouse.io/v1/boards/scaleai/jobs,greenhouse,,2026-10-01,
-Snowflake,https://api.ashbyhq.com/posting-api/job-board/snowflake,ashby,,2026-10-01,
-Together AI,https://boards-api.greenhouse.io/v1/boards/togetherai/jobs,greenhouse,,2026-10-01,
-Waymo,https://boards-api.greenhouse.io/v1/boards/waymo/jobs,greenhouse,,2026-10-01,
-Zoox,https://api.lever.co/v0/postings/zoox?mode=json,lever,,2026-10-01,
-Abridge,https://api.ashbyhq.com/posting-api/job-board/abridge,ashby,proctracker 6 reports/14d (promoted 2026-08-30),2026-10-01,
-Anthropic,https://boards-api.greenhouse.io/v1/boards/anthropic/jobs,greenhouse,proctracker 3 reports/14d (promoted 2026-08-30),2026-10-01,
-Cognition AI,https://api.ashbyhq.com/posting-api/job-board/cognition,ashby,proctracker 3 reports/14d (promoted 2026-08-30),2026-10-01,
-Decagon,https://api.ashbyhq.com/posting-api/job-board/decagon,ashby,proctracker 6 reports/14d (promoted 2026-08-30),2026-10-01,
-OpenAI,https://api.ashbyhq.com/posting-api/job-board/openai,ashby,proctracker 4 reports/14d (promoted 2026-08-30),2026-10-01,
-ElevenLabs,https://api.ashbyhq.com/posting-api/job-board/elevenlabs,ashby,captured 2026-09-04 — frontier audio/voice lab; 252 live postings,2026-10-01,
+Anyscale,https://api.ashbyhq.com/posting-api/job-board/anyscale,ashby,,2026-10-01,2026-10-01
+Baseten,https://api.ashbyhq.com/posting-api/job-board/baseten,ashby,,2026-10-01,2026-10-01
+Cerebras,https://api.ashbyhq.com/posting-api/job-board/cerebras,ashby,,2026-10-01,2026-10-01
+Cohere,https://api.ashbyhq.com/posting-api/job-board/cohere,ashby,,2026-10-01,2026-10-01
+CoreWeave,https://boards-api.greenhouse.io/v1/boards/coreweave/jobs,greenhouse,,2026-10-01,2026-10-01
+Databricks,https://boards-api.greenhouse.io/v1/boards/databricks/jobs,greenhouse,,2026-10-01,2026-10-01
+etched,https://api.ashbyhq.com/posting-api/job-board/etched,ashby,,2026-10-01,2026-10-01
+Fireworks AI,https://api.ashbyhq.com/posting-api/job-board/fireworks,ashby,,2026-10-01,2026-10-01
+Kodiak,https://boards-api.greenhouse.io/v1/boards/kodiak/jobs,greenhouse,,2026-10-01,2026-10-01
+Lambda,https://api.ashbyhq.com/posting-api/job-board/lambda,ashby,,2026-10-01,2026-10-01
+Mercor,https://api.ashbyhq.com/posting-api/job-board/mercor,ashby,,2026-10-01,2026-10-01
+Modal,https://api.ashbyhq.com/posting-api/job-board/modal,ashby,,2026-10-01,2026-10-01
+nuro,https://boards-api.greenhouse.io/v1/boards/nuro/jobs,greenhouse,,2026-10-01,2026-10-01
+Scale AI,https://boards-api.greenhouse.io/v1/boards/scaleai/jobs,greenhouse,,2026-10-01,2026-10-01
+Snowflake,https://api.ashbyhq.com/posting-api/job-board/snowflake,ashby,,2026-10-01,2026-10-01
+Together AI,https://boards-api.greenhouse.io/v1/boards/togetherai/jobs,greenhouse,,2026-10-01,2026-10-01
+Waymo,https://boards-api.greenhouse.io/v1/boards/waymo/jobs,greenhouse,,2026-10-01,2026-10-01
+Zoox,https://api.lever.co/v0/postings/zoox?mode=json,lever,,2026-10-01,2026-10-01
+Abridge,https://api.ashbyhq.com/posting-api/job-board/abridge,ashby,proctracker 6 reports/14d (promoted 2026-08-30),2026-10-01,2026-10-01
+Anthropic,https://boards-api.greenhouse.io/v1/boards/anthropic/jobs,greenhouse,proctracker 3 reports/14d (promoted 2026-08-30),2026-10-01,2026-10-01
+Cognition AI,https://api.ashbyhq.com/posting-api/job-board/cognition,ashby,proctracker 3 reports/14d (promoted 2026-08-30),2026-10-01,2026-10-01
+Decagon,https://api.ashbyhq.com/posting-api/job-board/decagon,ashby,proctracker 6 reports/14d (promoted 2026-08-30),2026-10-01,2026-10-01
+OpenAI,https://api.ashbyhq.com/posting-api/job-board/openai,ashby,proctracker 4 reports/14d (promoted 2026-08-30),2026-10-01,2026-10-01
+ElevenLabs,https://api.ashbyhq.com/posting-api/job-board/elevenlabs,ashby,captured 2026-09-04 — frontier audio/voice lab; 252 live postings,2026-10-01,2026-10-01
 Google,https://www.google.com/about/careers/applications/jobs/results/,careers-page,"proctracker 32 reports/14d (promoted 2026-09-06); repair 2026-09-21: the page IS server-rendered and fetchable (3223 postings, 20 per ?page=N) BUT google.com/robots.txt explicitly disallows this path and its ?page= variants. Off-limits, not broken — do not scrape; treat as reference only",2026-10-01,
-Microsoft,https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&num=20,json-api,"feed repair 2026-09-21: portal moved off jobs.careers.microsoft.com (301) to Eightfold; 2371 openings. gcsservices.careers.microsoft.com serves a cert for *.azureedge.net and is genuinely invalid, not a proxy fault. Request recipe in config sources.json_api",2026-10-01,
+Microsoft,https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&num=20,json-api,"feed repair 2026-09-21: portal moved off jobs.careers.microsoft.com (301) to Eightfold; 2371 openings. gcsservices.careers.microsoft.com serves a cert for *.azureedge.net and is genuinely invalid, not a proxy fault. Request recipe in config sources.json_api",2026-10-01,2026-10-01
 Tesla,https://www.tesla.com/careers/search/,careers-page,"proctracker 4 reports/14d (promoted 2026-09-06); repair 2026-09-21 FAILED: no ATS board; Akamai 403s every www.tesla.com path including robots.txt and cua-api — a blanket client block, not a per-endpoint issue",2026-10-01,
-Apple,https://jobs.apple.com/en-us/search?location=united-states-USA,careers-page,"feed repair 2026-09-21: old /en-us/search served global retail roles; this URL is US-scoped and server-rendered (41 detail links + hydration blob). JSON routes if needed: POST jobs.apple.com/api/v1/search (GET 401), details GET /api/v1/jobDetails/<id>",2026-10-01,
-Perplexity,https://api.ashbyhq.com/posting-api/job-board/perplexity,ashby,proctracker 7 reports/14d (promoted 2026-09-13); Tier M (policy seed-startup list),2026-10-01,
-Cursor,https://api.ashbyhq.com/posting-api/job-board/cursor,ashby,"proctracker 3 reports/14d (promoted 2026-09-27); Tier M (policy seed-startup list, Anysphere/Cursor); 126 live postings",2026-10-01,
-Glean,https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs,greenhouse,proctracker 3 reports/14d (promoted 2026-09-27); greenhouse slug is 'gleanwork' (130 postings),2026-10-01,
-xAI,https://boards-api.greenhouse.io/v1/boards/xai/jobs,greenhouse,,2026-10-01,
-Thinking Machines,https://api.ashbyhq.com/posting-api/job-board/thinkingmachines,ashby,,2026-10-01,
-Cartesia,https://api.ashbyhq.com/posting-api/job-board/cartesia,ashby,,2026-10-01,
+Apple,https://jobs.apple.com/en-us/search?location=united-states-USA,careers-page,"feed repair 2026-09-21: old /en-us/search served global retail roles; this URL is US-scoped and server-rendered (41 detail links + hydration blob). JSON routes if needed: POST jobs.apple.com/api/v1/search (GET 401), details GET /api/v1/jobDetails/<id>",2026-10-01,2026-10-01
+Perplexity,https://api.ashbyhq.com/posting-api/job-board/perplexity,ashby,proctracker 7 reports/14d (promoted 2026-09-13); Tier M (policy seed-startup list),2026-10-01,2026-10-01
+Cursor,https://api.ashbyhq.com/posting-api/job-board/cursor,ashby,"proctracker 3 reports/14d (promoted 2026-09-27); Tier M (policy seed-startup list, Anysphere/Cursor); 126 live postings",2026-10-01,2026-10-01
+Glean,https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs,greenhouse,proctracker 3 reports/14d (promoted 2026-09-27); greenhouse slug is 'gleanwork' (130 postings),2026-10-01,2026-10-01
+xAI,https://boards-api.greenhouse.io/v1/boards/xai/jobs,greenhouse,,2026-10-01,2026-10-01
+Thinking Machines,https://api.ashbyhq.com/posting-api/job-board/thinkingmachines,ashby,,2026-10-01,2026-10-01
+Cartesia,https://api.ashbyhq.com/posting-api/job-board/cartesia,ashby,,2026-10-01,2026-10-01
 Groq,,careers-page,,2026-10-01,
 Meta,,careers-page,,2026-10-01,
-Mistral,,careers-page,,2026-10-01,
+Mistral,,careers-page,,2026-10-01,2026-10-01
 Modular,,careers-page,,2026-10-01,
-NVIDIA,,careers-page,,2026-10-01,
-Reflection,,careers-page,,2026-10-01,
+NVIDIA,,careers-page,,2026-10-01,2026-10-01
+Reflection,,careers-page,,2026-10-01,2026-10-01
 SambaNova,,careers-page,,2026-10-01,
 SSI,,careers-page,,2026-10-01,
