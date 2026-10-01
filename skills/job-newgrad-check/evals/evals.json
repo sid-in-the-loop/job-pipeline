@@ -1,0 +1,50 @@
+{
+ "skill_name": "job-newgrad-check",
+ "evals": [
+  {
+   "id": 0,
+   "prompt": "newgrad-check worker task on this queue (5 real postings incl. explicit new-grad programs and unlabeled startup roles):\n{\"url\": \"https://careers.roblox.com/jobs/8072244?gh_jid=8072244\", \"company\": \"Roblox\", \"role\": \"2027 Software Engineer - Early Career\", \"notes\": \"\", \"fit\": 5, \"star\": true}\n{\"url\": \"https://salesforce.wd12.myworkdayjobs.com/en-US/futureforce_newgradroles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250\", \"company\": \"Salesforce\", \"role\": \"Software Engineering AMTS - ",
+   "expected_output": "5 real postings incl. explicit new-grad programs and unlabeled startup roles",
+   "assertions": [
+    "verify.b1.jsonl: one valid line per queue URL, in order",
+    "every verdict in yes/no/unclear",
+    "Roblox Early Career -> yes AND flags contain sponsorship_risk (posting hedges future H-1B)",
+    "Salesforce College Grad -> yes (unclear only if fetch_failed)",
+    "Baseten roles (degree-only minimum, no years stated) -> yes per the degree-only rule",
+    "Jane Street Front End -> no, citing the 'Full-Time: Experienced' track label",
+    "every yes/no carries real evidence",
+    "flags stay inside the expanded contract enum"
+   ],
+   "files": [
+    "eval-0-mixed-real-postings/with_skill/outputs/verify_queue.b1.jsonl"
+   ]
+  },
+  {
+   "id": 1,
+   "prompt": "newgrad-check worker task on this queue (dead URL mixed with live ones \u2014 must fail soft without inventing data):\n{\"url\": \"https://boards-api.greenhouse.io/v1/boards/definitely-not-a-real-board-xyz/jobs\", \"company\": \"BrokenCo\", \"role\": \"Software Engineer\", \"notes\": \"\", \"fit\": 4, \"star\": false}\n{\"url\": \"https://careers.roblox.com/jobs/8072244?gh_jid=8072244\", \"company\": \"Roblox\", \"role\": \"2027 Software Engineer - Early Career\", \"notes\": \"\", \"fit\": 5, \"star\": false}\n{\"url\": \"https://jobs.ashbyhq.com/cerebras/99",
+   "expected_output": "dead URL mixed with live ones \u2014 must fail soft without inventing data",
+   "assertions": [
+    "3 lines in queue order",
+    "dead URL -> unclear + fetch_failed",
+    "dead URL evidence states failure, years null",
+    "live URLs still judged",
+    "flags stay inside the expanded contract enum"
+   ],
+   "files": [
+    "eval-1-dead-url-no-hallucination/with_skill/outputs/verify_queue.b1.jsonl"
+   ]
+  },
+  {
+   "id": 2,
+   "prompt": "newgrad-check worker task on this queue (empty queue \u2014 must write empty output, not fabricate):\n",
+   "expected_output": "empty queue \u2014 must write empty output, not fabricate",
+   "assertions": [
+    "empty verify.b1.jsonl written",
+    "no fabricated entries"
+   ],
+   "files": [
+    "eval-2-empty-queue/with_skill/outputs/verify_queue.b1.jsonl"
+   ]
+  }
+ ]
+}

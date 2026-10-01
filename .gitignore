@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+*-workspace/
+
+# Per-run working directory: ephemeral session state, never repo content —
+# candidates, triage verdicts, mail events (personal job data), and whatever
+# an older layout left there (run/config.json is no longer read).
+run/
+
+# state/ is tracked ON PURPOSE — watchlist, seen ledger, run history: the
+# pipeline's cross-run memory, committed back by every scheduled run.
+
+# skills/job-pipeline/assets/config.seed.json is ALSO tracked on purpose: the
+# cloud routines read it from the checkout. It holds the sheets_writer secret,
+# which is why this repo must stay private.

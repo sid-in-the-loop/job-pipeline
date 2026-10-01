@@ -1,0 +1,6 @@
+{
+  "name": "job-pipeline",
+  "version": "3.0.0",
+  "description": "New-grad SWE job search pipeline: cloud scheduled scans with subagent orchestration, triage against a hand-written policy, OA-deadline mail sweep, Google Sheet as the human-facing tracker, machine state committed in the repo.",
+  "author": { "name": "Yash" }
+}

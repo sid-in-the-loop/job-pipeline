@@ -1,0 +1,127 @@
+{
+ "_README": [
+  "Runtime configuration for the job-pipeline plugin. Every tunable number,",
+  "date, regex, and id lives here so nothing has to be edited inside a skill.",
+  "",
+  "THIS FILE IS THE TEMPLATE. Your real config is skills/job-pipeline/assets/",
+  "config.seed.json, which the job-onboarding skill writes from this file and",
+  "fills in (tracker sheet id, resume doc id, sheets_writer URL + secret, class",
+  "year, timezone). config.seed.json carries a secret, so the repo that holds",
+  "it MUST be private. The scripts resolve config as --config, then",
+  "$JOB_PIPELINE_CONFIG, then config.seed.json, then this file, then built-in",
+  "defaults, so a cloud run needs nothing but the checkout. Edit, commit, push",
+  "to retune; nothing writes the seed automatically after onboarding. Unknown",
+  "keys are ignored; any key you delete falls back to its built-in default."
+ ],
+ "user": {
+  "timezone": "America/New_York",
+  "_timezone": "IANA timezone. mail-sweep derives each email's local received_date in this zone and all deadline arithmetic uses it; 'due today' in the digest means today here."
+ },
+ "sources": {
+  "posted_after": "2026-07-01",
+  "_posted_after": "Absolute cutoff — drop postings older than this date. Not a rolling window. Onboarding sets it to ~60 days before your first run; move it forward if the sheet fills with stale reqs. CLI --posted-after overrides.",
+  "ats_strict": false,
+  "_ats_strict": "true = watchlist feeds keep only explicit new-grad titles. false also keeps engineering titles with no seniority marker, which is what makes the ML-infra lane produce anything (those startups never write 'new grad').",
+  "exclude_title": "senior|(?<!technical )\\bstaff\\b|principal|\\bsr\\.?\\b|manager|director|vp\\b|head of|\\bquant(itative)?\\s+(researcher|research\\s+analyst|research\\s+scientist|research\\s+associate|analyst|trader|trading\\s+analyst|trading\\s+associate|strategist)\\b|intern(ship)?\\b|co[- ]?op\\b|phd|\\b2026\\b|user research(er)?|market research(er)?|ux research(er)?|fundamental research(er)?|executive research(er)?|business intelligence research(er)?|people research(er)?|quantamental|post[- ]?doc|vlsi|\\basic\\b|\\brtl\\b|fpga|analog design|mixed[- ]signal|physical design|circuit design|silicon engineer",
+  "_exclude_title": "Titles dropped everywhere, always. Contains the year BEFORE your target cohort (\\b2026\\b here, for 2027 starts) because last cycle's '2026 Start' / 'New Grad 2026' reqs are stale; onboarding rewrites it for your class year. Also drops quant research/trading, intern, PhD, and hardware/silicon titles — delete any group you actually want.",
+  "newgrad_title": "new grad|university|early career|entry[- ]level|college grad|campus|graduate|engineer i\\b|associate software|2027",
+  "_newgrad_title": "Explicit new-grad signal. Ends with your target class year (2027 here); onboarding rewrites it. Postings for the previous cohort are excluded via exclude_title.",
+  "seniority_markers": "\\b(ii|iii|iv|v)\\b|\\blead\\b|architect|chief|distinguished|fellow|expert|\\b(experienced|advanced)\\b|\\b[5-9]\\+?\\s*years",
+  "_seniority_markers": "Extra level markers used only on the relaxed watchlist path.",
+  "eng_role": "software engineer|swe\\b|developer|programmer|engineer,|engineer -|engineer –|quantitative|research engineer|research scientist|applied scientist|\\bresearcher\\b|systems engineer|infrastructure engineer|platform engineer|ml engineer|machine learning engineer|performance engineer|member of (the )?technical staff|technical staff|\\bmts\\b",
+  "_eng_role": "What counts as an engineering title on the relaxed watchlist path. 'research scientist' / 'researcher' / 'applied scientist' are here because at labs and trading firms that IS the engineering title for ML work, and matching only 'research engineer' dropped every one of them on the title alone — IMC's Machine Learning Researcher (2+ yrs, $250-300K base) never once entered triage. The PhD-gated share of them (~23% of such postings across the tracked boards; the rest state no PhD at all) is not filtered here: newgrad-check reads the posting and returns 'no' with the requirement line quoted, so they get dropped visibly, in verified_out, instead of silently. Quant researchers and UX/market researchers are excluded by exclude_title.",
+  "json_api": {
+   "Microsoft": {
+    "method": "GET",
+    "list": "data.positions",
+    "title": "name",
+    "location": "locations",
+    "url_field": "positionUrl",
+    "url_base": "https://apply.careers.microsoft.com",
+    "posted_field": "postedTs",
+    "page": {
+     "param": "start",
+     "size": 10,
+     "max_pages": 20
+    },
+    "sleep": 1.0
+   },
+   "TikTok": {
+    "method": "POST",
+    "headers": {
+     "website-path": "tiktok"
+    },
+    "body": {
+     "keyword": "software engineer",
+     "limit": 100,
+     "offset": 0
+    },
+    "list": "data.job_post_list",
+    "title": "title",
+    "location": "city_info.en_name",
+    "url_template": "https://lifeattiktok.com/search/{id}",
+    "page": {
+     "body_param": "offset",
+     "size": 100,
+     "max_pages": 4
+    },
+    "sleep": 0.5
+   }
+  },
+  "_json_api": "Per-company request recipes for `json-api` watchlist rows: the XHR endpoint a careers SPA calls when it has no ATS board and no server-rendered listing. Keys: method, headers, body (POST), list (dotted path to the array), title, location, url_field + url_base or url_template, posted_field, page {param|body_param, size, max_pages}, sleep, user_agent. `user_agent` is opt-in because Microsoft's endpoint 200s for curl's default UA and returns a non-JSON body for a Mozilla string. max_pages bounds a daily run: Microsoft pages 10 at a time over thousands of openings, so this takes the newest 200, not all of them.",
+  "_fixed": "Optional: override the two curated new-grad lists the scan always reads. Default (no `fixed` key) = speedyapply's 2027-SWE-College-Jobs NEW_GRAD_USA.md + SimplifyJobs New-Grad-Positions. For a different class year set e.g. \"fixed\": [{\"name\":\"speedyapply\",\"kind\":\"markdown\",\"url\":\"https://raw.githubusercontent.com/speedyapply/2026-SWE-College-Jobs/main/NEW_GRAD_USA.md\"},{\"name\":\"simplify\",\"kind\":\"markdown\",\"url\":\"https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/README.md\",\"fallback\":\"https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/main/README.md\"}] — verify the URL returns 200 first."
+ },
+ "triage": {
+  "fit_min": 3,
+  "_fit_min": "Minimum fit score that earns a row in Openings. Raise to 4 if the sheet gets noisy.",
+  "batch_size": 40,
+  "_batch_size": "Candidates per triage subagent."
+ },
+ "comp": {
+  "label": "salary|compensation|pay range|pay band|base pay|base salary|total cash|on[- ]target earnings|\\bOTE\\b|annual base",
+  "_label": "A dollar figure counts as pay only if one of these words sits next to it. Without the guard a $2,000 referral bonus or a $150M funding line becomes the Comp cell.",
+  "min": 40000,
+  "max": 2000000,
+  "_min_max": "Sanity bounds in USD/year. Figures outside them are not annual comp for these roles and are ignored. Only what the posting STATES is ever written — the pipeline never estimates a range."
+ },
+ "routing": {
+  "status_map": {
+   "New": "Not Applied",
+   "Applied": "Applied",
+   "OA": "OA received",
+   "OA Submitted": "OA submitted",
+   "Interview": "Interview scheduled",
+   "Rejected": "Reject",
+   "Offer": "Offer"
+  },
+  "status_vocab": {},
+  "_status_vocab": "Per-tab data-validation vocabulary, only for a tab whose Status dropdown is missing values the pipeline writes, e.g. {\"MLE\": [\"Not Applied\", \"Applied\", \"OA received\", \"OA submitted\", \"Interview scheduled\", \"Offer\"]} when that tab has no \"Reject\". A value the dropdown refuses throws in the Apps Script and aborts the WHOLE batch, so merge drops just that Status, keeps the row's other values, and lists the row under run_summary.status_unwritable for the digest. Empty = every tab accepts every status_map value, which is true for the sheet onboarding creates (no validation). The real fix for a restricted tab is to add the missing value to its dropdown.",
+  "_status_map": "Internal stage name -> the value written to the Status cell. If you add dropdowns (Data > Data validation) to the Status column, they must contain every value on the right-hand side here, or list the restricted tab under status_vocab — ONE refused Status aborts the whole batch, not just its row. Internal names stay the RANK keys inside pipeline_ops.py; only the written cell value is translated. \"Unreleased\" is a handy manual marker (company you're watching, no req yet); the pipeline never writes it.",
+  "_routing": "Also read from this section by pipeline_ops.py, each falling back to its built-in default when absent: tabs, quant_companies, mlinfra_companies, quant_role, mlinfra_role."
+ },
+ "outreach": {
+  "follow_up_business_days": 5
+ },
+ "sheets_writer": {
+  "url": "",
+  "secret": "",
+  "_": "Apps Script web app /exec URL + shared secret (assets/sheets_writer.gs; deploy steps in references/setup.md §3). Empty = no write path, so writes fall back to paste-ready TSV in the digest. Client MUST follow redirects (curl -sL) and must NOT pass -X POST: the /exec URL 302s to googleusercontent.com."
+ },
+ "storage": {
+  "tracker_sheet_id": "",
+  "_tracker_sheet_id": "The id in your tracker's URL: https://docs.google.com/spreadsheets/d/<THIS>/edit. The sheets_writer deployment is bound to this sheet.",
+  "resumes": {
+   "primary": "",
+   "secondary": ""
+  },
+  "_resumes": "primary = the resume you send with every application: a Google Doc id (shared 'Anyone with the link can view') or any https URL that returns plain text. deep-check reads it live per references/resume-read.md. secondary (optional) = an alternate version deep-check may mine for talking points only — never proposed as the file to send.",
+  "resume_version_url": "",
+  "_resume_version_url": "Optional. A public URL that returns {\"last_updated\", \"sha256\"} for the resume (e.g. a JSON your personal-site repo writes whenever the resume changes). Used only to stamp deep-check blocks; leave empty to skip."
+ },
+ "verify": {
+  "max_urls": 60,
+  "_max_urls": "Posting fetches per run for newgrad-check. Queue is stars-first; overflow is reported, not silent.",
+  "batch_size": 10,
+  "_batch_size": "URLs per newgrad-check worker."
+ }
+}
