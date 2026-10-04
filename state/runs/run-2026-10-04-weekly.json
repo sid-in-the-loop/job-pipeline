@@ -1,0 +1,26 @@
+{
+ "ts": "2026-10-04T22:12:22Z",
+ "date": "2026-10-04",
+ "kind": "weekly",
+ "scanned": null,
+ "kept": 0,
+ "dropped_by_triage": 0,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 3,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "signal-sync: 0 rows \u2014 recruitinginsights.xyz blocked by egress proxy (403 CONNECT); no watchlist additions possible",
+  "sheets_writer unreachable: script.google.com 403 CONNECT \u2014 sheet NOT written; read via Drive connector (first ~20 rows/tab only, so sheet_index/open_oas empty and updates became flagged appends)",
+  "no source scan this week (not part of weekly); 194 alert_role mail events NOT triaged (no triage run, none added to seen.txt)"
+ ],
+ "manual_sources": [],
+ "digest": "DUE SOON\n- humans& (Member of Technical Staff): the Oct 9 and Oct 13 technical interviews were CANCELED by the company on 2026-10-04 (will reach back out in December). Earlier digests list Oct 13 2pm ET as booked \u2014 remove it from your calendar. Not on the sheet.\n- AMD: user accepted a Monday Oct 5 slot; scheduling link/availability form still to come \u2014 watch for it. Not on the sheet.\n- DatologyAI Research Scientist: screen held 09-25, feedback pending; you asked for next steps 09-30. Nudge them if silent by ~Oct 7.\n\nFUNNEL / SCAN HEALTH\n- Sheet: 402 SWE + 100 MLE + 12 HFT rows (the first 20 rows/tab were all Not Applied; the earlier 10-04 brief found no Applied/OA/Interview rows). Applications 0 -> responses 0 on sheet. Real activity is in mail only: 3 interview processes (humans&, DatologyAI, AMD), 1 reject (Preference Model return offer).\n- Stale Applied >14d: none. Overdue Referrals follow-ups: none (Referrals tab empty) \u2014 no nudges to draft.\n- Run files 10-01..10-04: 10-01 scanned 3230, kept 513 (25 starred), 818 triage-dropped, 7 verify-out, 42 location-out. 10-02, 10-03, 10-04 scans returned 0 \u2014 every feed failed with proxy 403 (33 sources on 10-02/03; 10-04 'scan not run'). Three consecutive dead scans; seen.txt unchanged since 10-02.\n- Mail (8d, wide): 198 events: 0 OA, 2 interview, 1 recruiter, 1 rejection, 194 alert roles.\n\nPROPOSED PRUNES / REPAIRS\n- Prune (Last Hit >30d): none. Every row has Last Hit 2026-10-01 or was added 2026-10-01 (30-day grace).\n- Repairs (not prunes): Google (robots.txt disallows scraping \u2014 treat as reference only, remove from scan or accept), Tesla (Akamai blocks all paths), and no-feed careers-page rows with no Last Hit: Groq, Meta, Modular, SambaNova, SSI (no Feed URL). Mistral/NVIDIA/Reflection have Last Hit but no URL. All feeds currently fail from this environment because of the network policy, not the feeds themselves.\n- Watchlist additions: none (signal source unreachable).\n\nDRAFTED NUDGES\n- None due on Referrals. Optional DatologyAI recruiter nudge (user to send): \"Hi <name>, following up on my research screen on 9/25 \u2014 happy to schedule the coding round whenever works. Anything you need from me?\"\n\nNEXT WEEK\nThe pipeline has been blind since 10-02: the cloud environment's network policy blocks script.google.com, recruitinginsights.xyz and the job-board hosts, so there have been no scans, no sheet writes and no signal sync for three days while the real search progress (humans&, DatologyAI, AMD) lives only in Gmail. Fix #1: allow those hosts (or run the sheet write and scan from an environment that can). Fix #2: 194 mail alert roles piled up untriaged; once the network is fixed, run a triage pass over them. Fix #3: put the three live processes into the tracker by hand (TSV below) since mail merge could not target rows, and mark humans& as canceled. Also, 0 applications are recorded on the sheet with ~500 rows of fit>=3 waiting \u2014 the bottleneck is applying, not discovery; pick the 25 starred roles from 10-01 and apply to 5 this week.\n\nSheet changes NOT written (paste into SWE tab: Date Added, Company, Role, Link, Source, Status, OA Deadline, Last Email, Flags):\n2026-10-04\tDatologyAI\tResearch Scientist\t\tmail\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a0abbc77c61a3b1\tunmatched-update\n2026-10-04\tAMD\t\t\tmail\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a0e9efd1ca6c910\tunmatched-update\n2026-10-04\tPreference Model\tReturn offer\t\tmail\tReject\t\thttps://mail.google.com/mail/u/0/#all/1a05f9e80d0d2e58\tunmatched-update\n\nERRORS\n- signal-sync: 0 rows \u2014 recruitinginsights.xyz blocked by egress proxy (403 CONNECT); no watchlist additions possible\n- sheets_writer unreachable: script.google.com 403 CONNECT \u2014 sheet NOT written; read via Drive connector (first ~20 rows/tab only, so sheet_index/open_oas empty and updates became flagged appends)\n- no source scan this week (not part of weekly); 194 alert_role mail events NOT triaged (no triage run, none added to seen.txt)\n",
+ "signals": [],
+ "errors_list_note": true
+}
