@@ -1,0 +1,112 @@
+{
+ "ts": "2026-10-06T11:42:18Z",
+ "date": "2026-10-06",
+ "kind": "morning",
+ "scanned": 0,
+ "kept": 3,
+ "dropped_by_triage": 8,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 1,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "speedyapply: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "simplify: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "all sources failed: proxy 403",
+  "sheets_writer unreachable; TSV fallback"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "\u2605 Apply first: none today (0 stars; no new-grad-verified rows).\nNew: 3 added (0 from signals/ATS, 0 from lists, 3 from alerts, all unverified_newgrad \u2014 posting fetch blocked); 8 dropped by triage (+2 Senior alert roles dropped by title filter)\nOA/interview: humans& (Member of Technical Staff) \u2014 interview slots Oct 9/Oct 13 were CANCELED, company to reach out in December; you already replied 2026-10-04, nothing owed. DatologyAI interview row unchanged. No OAs, nothing DUE SOON.\nFollow-ups due: none found\nErrors: (1) Egress proxy 403'd script.google.com and raw.githubusercontent.com/ATS APIs: ALL 33 sources failed (speedyapply, simplify, 31 ATS feeds, 11 careers pages unfetched) \u2014 today's list/ATS drops were NOT scanned and will surface on the next run with working egress. (2) sheets_writer unreachable -> sheet NOT written; sheet read done via Drive connector (full xlsx export). Paste-ready TSV appends below (columns: Date Added, Company, Role, Location, Link, Source, Fit, Comp, Flags, Status, OA Deadline, Last Email); note the humans& row is auto-generated as 'Interview scheduled' but the interview was canceled \u2014 set Status manually or skip it. Update ops: none. (3) newgrad-check could not fetch (3 unclear). (4) No Calendar entries (no deadlines). \nTSV:\nSWE\t2026-10-06\tRadical AI\tSoftware Engineer, Agent Platform\t\thttps://mail.google.com/mail/u/0/#all/1a10f5d5f0890232?r=1-radical-ai\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\t\t\nMLE\t2026-10-06\tSafeWorld\tMachine Learning Software Engineer\t\thttps://mail.google.com/mail/u/0/#all/1a10e81a9dbd98ca?r=8-safeworld\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\t\t\nSWE\t2026-10-06\tAmbrook\tSoftware Engineer, AI\t\thttps://mail.google.com/mail/u/0/#all/1a1095b4d21a5014?r=13-ambrook\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\t\t\nSWE\t2026-10-06\thumans&\tMember of Technical Staff\t\t\tmail\t\t\tunmatched-update\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a107c50a225a74e"
+}
