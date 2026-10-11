@@ -1,0 +1,21 @@
+{
+ "ts": "2026-10-11T22:12:24Z",
+ "date": "2026-10-11",
+ "kind": "weekly",
+ "scanned": null,
+ "kept": 0,
+ "dropped_by_triage": 0,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 6,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [],
+ "manual_sources": [],
+ "digest": "No DUE SOON items (no OA/interview deadlines; Poetiq intro call booked, you already replied).\n\nFUNNEL (sheet read via Drive connector \u2014 SWE 402 rows, MLE 100, HFT 12, Referrals 0; only the first ~20 rows/tab are visible, all 'Not Applied', so counts are a floor): applications on sheet \u2248 0 recorded; mail shows applications/acks at Taste Labs, Discovery Loop, Distyl AI, Proximal, OpenAI; 0 OAs; 1 interview (Poetiq intro call); 1 process paused (humans& cancelled interviews, will reach out in December). The tracker is behind reality: Applied rows were never written.\nSCAN HEALTH (last ~7 run files): of 6 morning runs, 4 had ALL 33 sources fail with proxy 403 (speedyapply, simplify, 32 ATS feeds) and 2 (10-07, 10-08) did nothing at all; scanned=0 every run, so kept rows come only from mail alerts (kept 0/10/3/34/13/11, all unverified, none starred). 11 careers-page sources are manual/unscanned.\nSTALE APPLIED >14d: none verifiable (no Applied rows on sheet). OVERDUE FOLLOW-UPS: none (Referrals empty) \u2014 no nudges drafted.\nWATCHLIST: 0 additions (signal-sync returned 0 companies: recruitinginsights.xyz unreachable/empty). PRUNE proposals (Last Hit >30d): none; all rows added 2026-10-01. REPAIRS (separate from prune): Groq, Meta, Modular, SambaNova, SSI are careers-page rows with blank Feed URL, never fetched \u2014 resolve ATS feeds (needs egress); Google is robots.txt-disallowed, reference only; all 32 ATS feeds fail at the proxy rung (403 CONNECT), not a feed fault.\nMAIL BACKSTOP (8d): 13 events (0 oa, 1 interview, 5 acks, 1 recruiter, 6 alert roles \u2014 alert roles were Perplexity x2, OpenAI FDE, PermitFlow, WithCoverage, and a Child Mind 'Senior' role which should be dropped). Merge produced 6 ops (sheet index empty, so updates became flagged appends \u2014 dedupe by hand: Poetiq \u2192 set Interview scheduled; Taste Labs, Discovery Loop, Distyl AI, Proximal, OpenAI \u2192 Applied).\nNEXT WEEK: the pipeline is not working until egress is fixed \u2014 2 weeks of runs have scanned nothing and the sheet has not been written since 10-01. Highest-value change: allow script.google.com, recruitinginsights.xyz, boards-api.greenhouse.io, api.ashbyhq.com, api.lever.co in the routine's network policy (or use Full network); until then, daily runs are mail-only. Also stop persisting alert-only 'kept' rows as unverified Not Applied until newgrad-check can run, and record applications you actually submit so the funnel means something.\nErrors: sheets_writer/script.google.com blocked (403) \u2014 sheet NOT written; TSV below (SWE: tab, date, company, role, loc, link, source, fit, comp, flags, status). signal-sync: 0 rows (source blocked). Scan not part of weekly. Sheet read partial via Drive connector. A probe of the writer URL was refused by the auto-mode classifier; not retried.\nTSV:\nSWE\t2026-10-11\tPoetiq\tMember of the Technical Staff\t\t\tmail\t\t\tunmatched-update\tInterview scheduled\nSWE\t2026-10-11\tTaste Labs\tAI Engineer, RL & Evals\t\t\tmail\t\t\tunmatched-update\tApplied\nSWE\t2026-10-11\tDiscovery Loop\tMember of Technical Staff\t\t\tmail\t\t\tunmatched-update\tApplied\nSWE\t2026-10-11\tDistyl AI\tApplied AI Researcher, Post-Training\t\t\tmail\t\t\tunmatched-update\tApplied\nSWE\t2026-10-11\tProximal\tResearch Engineer\t\t\tmail\t\t\tunmatched-update\tApplied\nSWE\t2026-10-11\tOpenAI\t\t\t\tmail\t\t\tunmatched-update\tApplied",
+ "signals": []
+}
