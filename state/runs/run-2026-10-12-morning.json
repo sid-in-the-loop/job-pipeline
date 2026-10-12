@@ -1,0 +1,19 @@
+{
+ "ts": "2026-10-12T12:00:00Z",
+ "date": "2026-10-12",
+ "kind": "morning",
+ "scanned": 0,
+ "kept": 0,
+ "dropped_by_triage": 0,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "updated": 0,
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "network policy 403 on script.google.com, raw.githubusercontent.com, greenhouse API: scan and sheet write skipped"
+ ],
+ "manual_sources": [],
+ "signals": [],
+ "digest": "DUE SOON (48h): none (no open OA/interview on the sheet; mail sweep found 0 OA, 0 interview).\nApply first: none - the source scan did not run, so there are no new picks today.\nNew: 0 added; 0 dropped by triage. Source scan skipped.\nOA/interview: none. Acks (3, no row change, no sheet rows to update): Institute of Foundation Models (MLE - RL), Taste Labs (AI Engineer RL & Evals), Discovery Loop (MTS).\nMail alert roles (6, NOT triaged/added): Pogo Full Stack Engineer, Pogo GTM Engineer, Ridero Founding Engineer, Kodo Founding Software Engineer, Cape Full Stack SWE, Love Freedom Solution Full Stack Engineer. All early-stage/startup roles, likely low fit; check the Gmail alert by hand if wanted.\nFollow-ups due: none.\nErrors: (1) Sandbox network policy returns 403 on CONNECT for every external host tried: script.google.com (sheets_writer), raw.githubusercontent.com, boards-api.greenhouse.io, sheets.googleapis.com. So source-scan, newgrad-check and the sheets_writer write could not run. Fix: allow these hosts in the environment's network policy. (2) Sheet read through the Google Drive connector, which returns only a sample, so known.txt and sheet_index.csv were not built and the dedupe vs. the sheet is unverified. No open OAs were seen in the sample. (3) Triage, merge and the sheet write were skipped (nothing to write). Seen ledger unchanged, so tomorrow's scan will re-triage nothing extra. (4) Calendar connector not used (no deadlines)."
+}
