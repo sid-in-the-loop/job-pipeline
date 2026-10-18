@@ -1,0 +1,25 @@
+{
+ "ts": "2026-10-18T22:10:31Z",
+ "date": "2026-10-18",
+ "kind": "weekly",
+ "scanned": null,
+ "kept": 0,
+ "dropped_by_triage": 0,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 9,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "sheets_writer unreachable",
+  "signal-sync 0 rows (403)",
+  "sheet read partial"
+ ],
+ "manual_sources": [],
+ "digest": "\u26a0 DUE SOON (48h): Thinking Machines Lab recruiter screen Tue 2026-10-20 5:00pm EDT. Next: Poetiq technical interview (60 min) Wed 2026-10-21 5pm EDT; humans& Technical Interview 1 Mon 2026-10-26 4:30pm EDT (Interview 2 Nov 2). No OAs open.\nFUNNEL: sheet read via Drive connector (sampled: first ~20 rows/tab, all \"Not Applied\"; SWE 402, MLE 100, HFT 12 rows; Referrals empty), so sheet counts are a floor. From the 8-day mail sweep: 5 applications acked (Cohere, Institute of Foundation Models, Bespoke Labs, Reflection, Taste Labs), 1 rejection (Distyl), 0 OAs, 3 interviews booked (Poetiq, Thinking Machines, humans&), 2 recruiter threads live (DatologyAI awaiting interviewer feedback; Preference Model considering re-apply). The tracker still has no Applied rows: it lags reality.\nSCAN HEALTH (last 7 run files): scanned=0 in every run; all 33 sources fail with proxy 403 (speedyapply, simplify, 32 ATS feeds); kept rows come only from mail alerts, all unverified, none starred; 10-12 and 10-15 did nothing at all. 27 alert_role events this week were NOT triaged (weekly has no triage pass) and stay out of the ledger.\nPRUNE: none proposed (no row has Last Hit/Added >30d; earliest Added 2026-10-01). REPAIRS (not prunes): all ATS feeds blocked at the proxy rung (403 CONNECT); Groq, Meta, Modular, SambaNova, SSI have blank Feed URLs (resolve once egress works); Google is reference-only. Watchlist additions: 0 (signal-sync unreachable). \nNUDGES: none; Referrals tab is empty, no overdue follow-ups.\nNEXT WEEK: The pipeline is blind: the environment's network policy blocks script.google.com, recruitinginsights.xyz and every job source, so there are no scans, no sheet writes and no signals, and the tracker only learns what mail shows. Fix the egress allowlist (script.google.com, *.googleusercontent.com, boards-api.greenhouse.io, api.ashbyhq.com, api.lever.co, raw.githubusercontent.com, recruitinginsights.xyz) before anything else; if it can't be opened, drop the writer and use the Sheets connector for writes. Meanwhile apply by hand and log Applied rows, since the funnel can't be measured otherwise.\nErrors: sheets_writer unreachable (proxy 403 to script.google.com): sheet NOT written; 9 ops pending, TSV below. signal-sync: recruitinginsights.xyz 403, 0 signals. Sheet read partial (Drive connector sample). Wide mail-sweep skipped open_oas cross-check (no sheet pull), so Poetiq/TML/humans&/Distyl/etc. are unmatched appends, may duplicate existing rows. Fallbacks: Drive-connector read, TSV digest. Git push status below.\n\nSWE TSV (Date Added, Company, Role, Link, Source, Status, OA Deadline, Last Email):\n2026-10-18\tPoetiq\tMember of the Technical Staff\t\tmail\tInterview scheduled\t2026-10-21\thttps://mail.google.com/mail/u/0/#all/1a13bbbb14d32651\n2026-10-18\tThinking Machines Lab\t\t\tmail\tInterview scheduled\t2026-10-20\thttps://mail.google.com/mail/u/0/#all/1a13babd231762b4\n2026-10-18\thumans&\t\t\tmail\tInterview scheduled\t2026-10-26\thttps://mail.google.com/mail/u/0/#all/1a14ec124041cf72\n2026-10-18\tDistyl\tApplied AI Researcher, Post-Training\t\tmail\tReject\t\thttps://mail.google.com/mail/u/0/#all/1a136053e639bb47\n2026-10-18\tCohere\tMember of Technical Staff - RL Environments\t\tmail\tApplied\t\thttps://mail.google.com/mail/u/0/#all/1a13c85f0f1f73b4\n2026-10-18\tReflection\t\t\tmail\tApplied\t\thttps://mail.google.com/mail/u/0/#all/1a14b2af06cc112f\n2026-10-18\tTaste Labs\tAI Engineer, RL & Evals\t\tmail\tApplied\t\thttps://mail.google.com/mail/u/0/#all/1a12cf242a04a13e\nMLE TSV:\n2026-10-18\tInstitute of Foundation Models\tMachine Learning Engineer - Reinforcement Learning\t\tmail\tApplied\t\thttps://mail.google.com/mail/u/0/#all/1a12fc9700e074c2\n2026-10-18\tBespoke Labs\tSenior ML Research Engineer - RL Environments & Reward Modeling\t\tmail\tApplied\t\thttps://mail.google.com/mail/u/0/#all/1a1378393ce64c1d\n",
+ "signals": []
+}
