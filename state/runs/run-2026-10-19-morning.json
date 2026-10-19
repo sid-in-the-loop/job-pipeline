@@ -1,0 +1,110 @@
+{
+ "ts": "2026-10-19T11:42:04Z",
+ "date": "2026-10-19",
+ "kind": "morning",
+ "scanned": 0,
+ "kept": 22,
+ "dropped_by_triage": 48,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 2,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "speedyapply: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "simplify: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "Pipeline run 2026-10-19 (morning) \u2014 DEGRADED: source scan and sheet write were blocked.\nOA/interview: humans& \u2014 Technical Interview 1 on Mon Oct 26 4:30pm ET, Interview 2 Nov 2 2:30pm ET; you already replied (2026-10-12), they said they'll send new availability (2026-10-18). Not due within 48h.\n\u2605 Apply first: none starred (stars=0). Highest-fit alert roles (unverified, fit 5): Luma \u2014 Software Engineer, Inference; Physical Intelligence \u2014 ML Infra Engineer, Data Systems; CoreWeave \u2014 Applied AI Engineer, Inference; Anthropic \u2014 Research Engineer, Life Sciences; OpenAI \u2014 Software Engineer, Compute Infrastructure. Eligibility unverified (posting fetches blocked), so none starred.\nNew: 22 added from alerts (LinkedIn digests; 0 from lists/ATS \u2014 scan failed); 48 dropped by triage.\nFollow-ups due: none identified. Mail: Reflection ack (2026-10-17).\nErrors: (1) source-scan failed entirely \u2014 sandbox proxy returned 403 for every host (speedyapply, simplify, 31 watchlist feeds, careers pages); today's ledger/list candidates were NOT scanned, only mail-alert roles triaged. (2) sheets_writer (script.google.com) blocked by proxy 403 \u2014 NOTHING written to the sheet; appends below as TSV, updates as change-row lines. (3) Sheet could not be read in full (Drive connector returns only a 20-row sample per tab): run/known.txt, sheet_index.csv, open_oas.csv were empty, so dedupe relied on state/seen.txt only and open-OA cross-check was blind \u2014 possible duplicates vs. sheet rows and no DUE SOON check against sheet rows. (4) newgrad-check: all 21 fetches failed (proxy) \u2192 all unclear, flagged unverified_newgrad. (5) Calendar not used. (6) 'Unmatched-update' mail rows NOT appended (index empty would duplicate): change row: SWE tab, humans& \u2192 Status \"Interview scheduled\", Last Email https://mail.google.com/mail/u/0/#all/1a14ec124041cf72; change row: Reflection \u2192 Status \"Applied\" (if row exists), Last Email https://mail.google.com/mail/u/0/#all/1a14b2af06cc112f.\n\nPaste-ready TSV (Status \"Not Applied\" mapped as per routing):\n[MLE tab \u2014 columns: Company, Role, Location, Link, Status, Date Added, Source, Fit, Comp, Flags, OA Deadline, Last Email, Notes]\nFintal Partners\tMachine Learning Systems Engineer (Inference)\t\thttps://www.linkedin.com/jobs/view/4479623506/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tlow_signal_company;unverified_newgrad\t\t\t\nLudo Robotics\tML/AI Engineer\t\thttps://www.linkedin.com/jobs/view/4386375988/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nArchetype AI\tMachine Learning Applied Researcher\t\thttps://www.linkedin.com/jobs/view/4406254905/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nBackOps\tAI/ML Engineer\t\thttps://www.linkedin.com/jobs/view/4479134592/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nLuma\tSoftware Engineer, Inference\t\thttps://www.linkedin.com/jobs/view/4445287126/\tNot Applied\t2026-10-19\tmail-alert\t5\t\tunverified_newgrad\t\t\t\nPhysical Intelligence\tML Infra Engineer, Data Systems\t\thttps://www.linkedin.com/jobs/view/4445247997/\tNot Applied\t2026-10-19\tmail-alert\t5\t\tunverified_newgrad\t\t\t\nCoreWeave\tApplied AI Engineer, Inference\t\thttps://www.linkedin.com/jobs/view/4461825372/\tNot Applied\t2026-10-19\tmail-alert\t5\t\tunverified_newgrad\t\t\t\n\n[SWE tab \u2014 columns: Company, Role, Location, Link, Status, Date Added, Source, Fit, Comp, Flags, OA Deadline, Last Email, Notes]\nDecagon\tResearch Engineer, Safety\t\thttps://www.linkedin.com/jobs/view/4463694677/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nAnthropic\tResearch Engineer, Code RL (Reinforcement Learning)\t\thttps://www.linkedin.com/jobs/view/4426682742/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nSkild AI\tSoftware Engineer, AI Training and Infrastructure\t\thttps://www.linkedin.com/jobs/view/4426027580/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nAnthropic\tResearch Engineer, Computer Use\t\thttps://www.linkedin.com/jobs/view/4434341919/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nOpenAI\tSoftware Engineer, Compute Infrastructure\t\thttps://www.linkedin.com/jobs/view/4416731502/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nScale AI\tSoftware Engineer - New Grad\t\thttps://www.linkedin.com/jobs/view/4463615188/\tNot Applied\t2026-10-19\tmail-alert\t3\t\t\t\t\t\nAmazon Web Services (AWS)\tSoftware Development Engineer, Neuron Collectives, Annapurna Labs\t\thttps://www.linkedin.com/jobs/view/4455915194/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nVast.ai\tAI Agent Researcher\t\thttps://www.linkedin.com/jobs/view/4436475694/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nAnthropic\tResearch Engineer, Life Sciences\t\thttps://www.linkedin.com/jobs/view/4435493023/\tNot Applied\t2026-10-19\tmail-alert\t5\t\tunverified_newgrad\t\t\t\nOpenAI\tSoftware Engineer, Cloud Infrastructure\t\thttps://www.linkedin.com/jobs/view/4417165201/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nOpenAI\tSoftware Engineer, Compute Infrastructure\t\thttps://www.linkedin.com/jobs/view/4417176069/\tNot Applied\t2026-10-19\tmail-alert\t5\t\tunverified_newgrad\t\t\t\nVast.ai\tC++ Software Engineer\t\thttps://www.linkedin.com/jobs/view/4436479608/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nSage Care\tSoftware Engineer, Voice Platform\t\thttps://www.linkedin.com/jobs/view/4398503838/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nOpenAI\tSoftware Engineer, Infrastructure Security\t\thttps://www.linkedin.com/jobs/view/4416726516/\tNot Applied\t2026-10-19\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nOpenAI\tChatGPT Performance Engineer\t\thttps://www.linkedin.com/jobs/view/4416717740/\tNot Applied\t2026-10-19\tmail-alert\t4\t\tunverified_newgrad\t\t\t\n\n"
+}
