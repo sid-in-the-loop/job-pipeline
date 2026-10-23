@@ -1,0 +1,123 @@
+{
+ "ts": "2026-10-23T11:42:14Z",
+ "date": "2026-10-23",
+ "kind": "morning",
+ "scanned": 0,
+ "kept": 29,
+ "dropped_by_triage": 56,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 0,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [
+  {
+   "company": "Fireworks AI",
+   "role": "Member of Technical Staff, New Grad (BS/MS)",
+   "url": "https://www.linkedin.com/jobs/view/4464696387/",
+   "why": "Fireworks Tier M, MTS new grad BS/MS match"
+  },
+  {
+   "company": "Fireworks AI",
+   "role": "Member of Technical Staff, New Grad (BS/MS)",
+   "url": "https://www.linkedin.com/jobs/view/4464699367/",
+   "why": "Fireworks MTS new grad, duplicate of earlier posting"
+  }
+ ],
+ "untriaged": [],
+ "errors": [
+  "speedyapply: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "simplify: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "\u2605 Apply first:\n- Fireworks AI \u2014 Member of Technical Staff, New Grad (BS/MS) \u2014 https://www.linkedin.com/jobs/view/4464696387/ (Tier M, new-grad BS/MS match; MLE tab)\n- Fireworks AI \u2014 same MTS New Grad role, second posting (likely duplicate) \u2014 https://www.linkedin.com/jobs/view/4464699367/\nNew: 29 added (0 from signals/ATS, 0 from lists, 29 from alerts); 56 dropped by triage. All 29 are LinkedIn alert roles; none eligibility-verified (flagged unverified_newgrad).\nOA/interview: none (0 OA/interview mail events; but open-OA cross-check was unavailable, see Errors).\nFollow-ups due: none checked (Referrals tab unreadable).\nErrors: (1) Egress proxy returned 403 to every host except Gmail/Drive/GitHub: source-scan failed ALL 33 feeds (speedyapply, simplify, 30 ATS, careers pages) -> 0 list/ATS candidates this run, only mail alerts were triaged; no watchlist Last Hit updates. (2) script.google.com blocked -> sheets_writer unreachable: NOTHING was written to the sheet; paste-ready TSV below (tab, then Date Added, Company, Role, Location, Link, Source, Fit, Comp, Flags, Status). No updates were pending. (3) Sheet read degraded: Drive connector returned only a 20-row sample per tab, so run/known.txt, sheet_index.csv and open_oas.csv were EMPTY; dedupe relied on state/seen.txt only (alerts could duplicate rows already on the sheet; open OA deadlines/DUE SOON could not be checked). (4) newgrad-check not run (24 queued rows; posting hosts unreachable) -> treated as unclear/unverified. (5) mail-alert rows have no location. (6) Calendar: no events to add. Config used: skills/job-pipeline/assets/config.seed.json; ledger state/seen.txt.\nSheet appends (TSV, not yet written):\nSWE\t2026-10-23\tFoundation AI\tSoftware Engineer\t\thttps://www.linkedin.com/jobs/view/4478926216/\tmail-alert\t3\t\tuncertain;unverified_newgrad\tNot Applied\nSWE\t2026-10-23\tGlobalFoundries\tSoftware Engineer (2027 New College Graduate)\t\thttps://www.linkedin.com/jobs/view/4476854304/\tmail-alert\t3\t\t\tNot Applied\nSWE\t2026-10-23\tNotion\tSoftware Engineer, Early Career\t\thttps://www.linkedin.com/jobs/view/4437461678/\tmail-alert\t3\t\t\tNot Applied\nSWE\t2026-10-23\tNotion\tSoftware Engineer, Early Career (AI)\t\thttps://www.linkedin.com/jobs/view/4437472369/\tmail-alert\t3\t\t\tNot Applied\nMLE\t2026-10-23\tLuma\tSoftware Engineer, Inference\t\thttps://www.linkedin.com/jobs/view/4476955989/\tmail-alert\t5\t\tunverified_newgrad\tNot Applied\nMLE\t2026-10-23\tCVS Health\tMachine Learning Engineer\t\thttps://www.linkedin.com/jobs/view/4482095467/\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tUnify\tApplied AI Engineer\t\thttps://www.linkedin.com/jobs/view/4482021649/\tmail-alert\t3\t\tuncertain;unverified_newgrad\tNot Applied\nMLE\t2026-10-23\tAbbott\tAI/ML Engineer\t\thttps://www.linkedin.com/jobs/view/4478756326/\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nMLE\t2026-10-23\tZenos, Inc.\tMachine Learning Engineer\t\thttps://www.linkedin.com/jobs/view/4482067576/\tmail-alert\t3\t\tuncertain;unverified_newgrad\tNot Applied\nMLE\t2026-10-23\tFonzi AI\tML Engineer\t\thttps://www.linkedin.com/jobs/view/4481132086/\tmail-alert\t3\t\tuncertain;unverified_newgrad\tNot Applied\nSWE\t2026-10-23\tFonzi AI\tApplied AI Engineer\t\thttps://www.linkedin.com/jobs/view/4481136001/\tmail-alert\t3\t\tuncertain;dupe_suspect;unverified_newgrad\tNot Applied\nSWE\t2026-10-23\tOpenAI\tSoftware Engineer, TPU Compilers\t\thttps://www.linkedin.com/jobs/view/4480718936/\tmail-alert\t5\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tOpenAI\tSoftware Engineer, Delivery / CD\t\thttps://www.linkedin.com/jobs/view/4417164254/\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tFluidstack\tDistributed Systems Engineer\t\thttps://www.linkedin.com/jobs/view/4436033903/\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tUnify\tApplied AI Engineer\t\thttps://www.linkedin.com/jobs/view/4482028342/\tmail-alert\t3\t\tuncertain;dupe_suspect;unverified_newgrad\tNot Applied\nSWE\t2026-10-23\tSpecter\tFounding AI Engineer\t\thttps://www.linkedin.com/jobs/view/4480710448/\tmail-alert\t3\t\tunverified;unverified_newgrad\tNot Applied\nSWE\t2026-10-23\tHebbia\tApplied Research Engineer, Agents\t\thttps://www.linkedin.com/jobs/view/4416423413/\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tOpenAI\tSoftware Engineer, Identity Infrastructure\t\thttps://www.linkedin.com/jobs/view/4481381655/\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tLangChain\tSoftware Engineer, Agent Systems (GTM Engineering)\t\thttps://www.linkedin.com/jobs/view/4473788579/\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tOpenAI\tSoftware Engineer, Fleet Management\t\thttps://www.linkedin.com/jobs/view/4417165182/\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nMLE\t2026-10-23\tFireworks AI\tMember of Technical Staff, New Grad (BS/MS)\t\thttps://www.linkedin.com/jobs/view/4464696387/\tmail-alert\t5\t\t\tNot Applied\nMLE\t2026-10-23\tFireworks AI\tMember of Technical Staff, New Grad (BS/MS)\t\thttps://www.linkedin.com/jobs/view/4464699367/\tmail-alert\t5\t\tdupe_suspect\tNot Applied\nMLE\t2026-10-23\tSkild AI\tMachine Learning Engineer, Reinforcement Learning\t\thttps://www.linkedin.com/jobs/view/4480085108/\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\t1X\tAI Research Engineer - Reinforcement Learning\t\thttps://www.linkedin.com/jobs/view/4480071696/\tmail-alert\t4\t\tlocation_unverified;unverified_newgrad\tNot Applied\nSWE\t2026-10-23\tOpenAI\tApplied AI Engineer, Codex Core Agent\t\thttps://www.linkedin.com/jobs/view/4416739416/\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-23\tLuminai\tApplied AI Engineer\t\thttps://www.linkedin.com/jobs/view/4394312789/\tmail-alert\t3\t\tunverified;unverified_newgrad\tNot Applied\nMLE\t2026-10-23\tSkydance\tMachine Learning Engineer\t\thttps://www.linkedin.com/jobs/view/4408503712/\tmail-alert\t3\t\tlocation_unknown;unverified_newgrad\tNot Applied\nHFT\t2026-10-23\tPoint72\tMachine Learning Engineer, GenAI Technology\t\thttps://www.linkedin.com/jobs/view/4459589984/\tmail-alert\t3\t\tlocation_unknown;unverified_newgrad\tNot Applied\nMLE\t2026-10-23\tCinder\tAI/ML Engineer\t\thttps://www.linkedin.com/jobs/view/4459887933/\tmail-alert\t3\t\tlocation_unknown;sponsorship_unverified;unverified_newgrad\tNot Applied"
+}
