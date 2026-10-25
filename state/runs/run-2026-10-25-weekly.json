@@ -1,0 +1,25 @@
+{
+ "ts": "2026-10-25T22:10:02Z",
+ "date": "2026-10-25",
+ "kind": "weekly",
+ "scanned": null,
+ "kept": 0,
+ "dropped_by_triage": 0,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 5,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "sheets_writer unreachable (proxy 403)",
+  "signal-sync skipped (proxy 403)",
+  "sheet read via Drive connector sample only"
+ ],
+ "manual_sources": [],
+ "digest": "\u26a0 DUE SOON (48h): humans& \u2014 technical interview Oct 26 (tomorrow), 2nd round Nov 2. You already replied (Oct 12); prep only.\nFunnel (week to Oct 25, mail only \u2014 sheet is stale): 0 OA, 4 interview events (humans&, Poetiq [held Oct 21], Thinking Machines [held Oct 20], DatologyAI [done, awaiting feedback]), 1 rejection (Preference Model, Oct 21), 32 alert-role emails. The tracker snapshot shows 0 Applied rows / only 'Not Applied' rows dated 2026-10-01: NO sheet write has landed since Oct 1 (script.google.com is blocked by the egress proxy), so funnel from the sheet is meaningless and Applied-stale >14d / Referrals follow-ups cannot be computed (Referrals tab is empty). No nudges drafted: nothing to nudge. Note Cohere told you a referral isn't possible post-application.\nScan health: last 7 morning runs: scanned 0 in all; every source (speedyapply, simplify, all 31 ATS feeds) failed with proxy 403 on 10/19-10/25. Kept totals (22/29/3) came from stale fallback input. This is egress, not feed rot \u2014 no feed repairs by URL. Repairs genuinely needed: Groq, Meta, Modular, SambaNova, SSI, Mistral, NVIDIA, Reflection have no Feed URL (careers-page, blank); Google is robots-disallowed (off-limits), Tesla blocks all clients.\nPrunes proposed: none yet \u2014 all rows Added 2026-10-01 so none passes 30 days until Oct 31; Last Hit is only stamped 10-01 because no scan has succeeded since. Re-check next week once egress works; Google and Tesla (blank Last Hit, unscrapeable) are the first prune candidates (propose; not deleted).\nSignals: signal-sync not run \u2014 recruitinginsights.xyz blocked by proxy (403); 0 rows, 0 watchlist additions.\nNext week: the pipeline is blind \u2014 fix the environment network allowlist (script.google.com, recruitinginsights.xyz, boards-api.greenhouse.io, api.ashbyhq.com, api.lever.co, raw.githubusercontent.com) or the daily scans and sheet writes are noise. Until then rely on mail-sweep; paste the TSV below by hand into the SWE tab (these 5 rows plus the 10/18 TSV rows still unwritten). Spend the week on interview prep (humans& tomorrow), not applying.\nErrors: sheets_writer unreachable (proxy 403 CONNECT script.google.com) -> sheet read via Drive connector (sample only, fallback), writes NOT done, TSV below; signal-sync skipped (proxy 403), signals empty; source-scan not part of weekly; sheet_index/open_oas empty (connector gave truncated sample).\nSWE TSV (Date Added, Company, Role, Link, Source, Status, OA Deadline, Last Email):\n2026-10-25\thumans&\t\t\tmail\tInterview scheduled\t2026-10-26\thttps://mail.google.com/mail/u/0/#all/1a14ec124041cf72\n2026-10-25\tPoetiq\tMember of the Technical Staff\t\tmail\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a13b6f00e47e6da\n2026-10-25\tThinking Machines Lab\t\t\tmail\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a155fbed60ac439\n2026-10-25\tDatologyAI\tResearch Scientist\t\tmail\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a117cac05dedc73\n2026-10-25\tPreference Model\t\t\tmail\tReject\t\thttps://mail.google.com/mail/u/0/#all/1a05f9e80d0d2e58",
+ "signals": []
+}
