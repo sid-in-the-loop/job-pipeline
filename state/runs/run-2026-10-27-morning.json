@@ -1,0 +1,110 @@
+{
+ "ts": "2026-10-27T11:41:00Z",
+ "date": "2026-10-27",
+ "kind": "morning",
+ "scanned": 0,
+ "kept": 6,
+ "dropped_by_triage": 12,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 3,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "speedyapply: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "simplify: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "New: 6 added via mail alerts only (0 from lists/ATS \u2014 scan fully blocked); 12 dropped by triage. None starred; all 6 unverified_newgrad.\nOA/interview: Interview \u2014 Poetiq (MTS), humans& ; Rejection \u2014 Discovery Loop (MTS). No OAs. No deadlines.\nFollow-ups due: none checked (sheet not fully readable).\nErrors: (1) Google hosts (script.google.com, docs.google.com) return 403 from the sandbox proxy: sheets_writer unreachable, so NO sheet write happened. (2) Source scan failed on all 33 feeds + 11 manual careers pages (403 on proxy CONNECT) \u2014 zero list/ATS candidates today; tomorrow's scan will cover them (not added to ledger). (3) Sheet read via Drive connector returned only a ~20-row sample per tab, so known.txt/sheet_index/open_oas were empty; dedupe relied on state/seen.txt only; the 3 mail updates could not be aimed at rows. (4) newgrad-check skipped (network blocked; alert links are Gmail permalinks).\n\nPaste-ready appends (tab<TAB>Date Added<TAB>Company<TAB>Role<TAB>Location<TAB>Link<TAB>Source<TAB>Fit<TAB>Comp<TAB>Flags<TAB>Status):\nSWE\t2026-10-27\tSodalis AI\tSoftware Engineer, Infrastructure\t\thttps://mail.google.com/mail/u/0/?r=0-sodalis-ai#all/1a17c5ea2968a000\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-27\tSynack\tSoftware Engineer - AI\t\thttps://mail.google.com/mail/u/0/?r=2-synack#all/1a17c5ea2968a000\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nMLE\t2026-10-27\tRadical AI\tMachine Learning Engineer\t\thttps://mail.google.com/mail/u/0/?r=0-radical-ai#all/1a17bf0cece64927\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\nMLE\t2026-10-27\tSuperhuman\tMachine Learning Engineer\t\thttps://mail.google.com/mail/u/0/?r=1-superhuman#all/1a17bf0cece64927\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-27\tPerplexity\tMember of Technical Staff (AI Researcher)\t\thttps://mail.google.com/mail/u/0/?r=3-perplexity#all/1a17bf0cece64927\tmail-alert\t5\t\tunverified_newgrad\tNot Applied\nSWE\t2026-10-27\tJobverse.io\tMember of the Technical Staff, Pretraining\t\thttps://mail.google.com/mail/u/0/?r=5-jobverse-io#all/1a17bf0cece64927\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\n\nChange rows:\nPoetiq (Member of the Technical Staff): set Status=Interview scheduled on its existing row (not found in the partial sheet read); Last Email https://mail.google.com/mail/u/0/#all/1a13b6f00e47e6da\nhumans& (role n/a): set Status=Interview scheduled on its existing row (not found in the partial sheet read); Last Email https://mail.google.com/mail/u/0/#all/1a17a0e04f933015\nDiscovery Loop (Member of Technical Staff): set Status=Reject on its existing row (not found in the partial sheet read); Last Email https://mail.google.com/mail/u/0/#all/1a178fb35d9fd612"
+}
