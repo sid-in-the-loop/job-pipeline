@@ -1,0 +1,117 @@
+{
+ "ts": "2026-10-28T11:43:51Z",
+ "date": "2026-10-28",
+ "kind": "morning",
+ "scanned": 0,
+ "kept": 27,
+ "dropped_by_triage": 51,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 3,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [
+  {
+   "company": "SambaNova",
+   "role": "ML Infrastructure Engineer - New Grad",
+   "url": "https://mail.google.com/mail/u/0/?r=62-sambanova#all/1a180a9487409f81",
+   "why": "SambaNova Tier M, ML infra new grad"
+  }
+ ],
+ "untriaged": [],
+ "errors": [
+  "speedyapply: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "simplify: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "\u26a0 DUE SOON (48h): Poetiq interview Fri 2026-10-30 5-6pm ET (confirmed, you already replied).\n\u2605 Apply first: SambaNova \u2014 ML Infrastructure Engineer - New Grad (Tier M, ML infra new grad; MLE tab); also SambaNova \u2014 Runtime Engineer - New Grad (fit 4). Other fit-5 alert roles (unverified): OpenAI GPU Infrastructure, Perplexity MTS (AI Researcher), Anthropic Research Engineer Chip Design RL.\nNew: 30 rows queued (0 from signals/ATS, 0 from lists, 27 from alerts + 3 unmatched mail rows); 51 dropped by triage. All alert rows are UNVERIFIED (newgrad-check skipped: postings unreachable) \u2014 flagged unverified_newgrad, not starred.\nOA/interview: Poetiq interview Fri 10-30 (confirmed); humans& interview held 10-26, nothing needed; Discovery Loop rejection (10-26).  0 new OAs.\nFollow-ups due: none checked (no Referrals read).\nErrors: (1) EGRESS BLOCKED \u2014 job-source scan fetched nothing (speedyapply, simplify, all ATS feeds, manual careers pages: proxy 403 CONNECT); only mail alerts were triaged, so today's new-grad list/ATS drops were NOT seen. Allow raw.githubusercontent.com, boards-api.greenhouse.io, api.ashbyhq.com, api.lever.co, etc. for the routine's environment. Watchlist Last Hit not stamped. (2) SHEET WRITE NOT DONE \u2014 script.google.com (sheets_writer) blocked 403; sheet read done via Drive connector xlsx export. Apply by hand below. Calendar entry for Poetiq not created. (3) newgrad-check skipped (no network); 23 queued rows written as unverified. (4) config.source: config.seed.json, ledger read; mail-alert URLs are Gmail permalinks, not postings.\nSheet fallback \u2014 appends as TSV (columns per tab; Status col as written):\n## MLE (append below last row)\n2026-10-28\tOpenAI\tSoftware Engineer, GPU Infrastructure - HPC\t\thttps://mail.google.com/mail/u/0/?r=10-openai#all/1a1773847bd1e827\tmail-alert\t5\t\tunverified_newgrad\tNot Applied\n2026-10-28\tXuman.AI\tFounding AI/ML Engineer\t\thttps://mail.google.com/mail/u/0/?r=16-xuman-ai#all/1a17aa72c70d1ceb\tmail-alert\t3\t\tunknown_company;unverified_newgrad\tNot Applied\n2026-10-28\tFonzi AI\tML Engineer\t\thttps://mail.google.com/mail/u/0/?r=17-fonzi-ai#all/1a17aa72c70d1ceb\tmail-alert\t3\t\tunknown_company;unverified_newgrad\tNot Applied\n2026-10-28\tRadical AI\tMachine Learning Engineer\t\thttps://mail.google.com/mail/u/0/?r=35-radical-ai#all/1a17bf0cece64927\tmail-alert\t3\t\tunknown_company;unverified_newgrad\tNot Applied\n2026-10-28\tSuperhuman\tMachine Learning Engineer\t\thttps://mail.google.com/mail/u/0/?r=36-superhuman#all/1a17bf0cece64927\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\n2026-10-28\tKargo\tMachine Learning Engineer\t\thttps://mail.google.com/mail/u/0/?r=46-kargo#all/1a17fcd8bb3c26a2\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\n2026-10-28\tAntioch\tMember of Technical Staff, Machine Learning\t\thttps://mail.google.com/mail/u/0/?r=47-antioch#all/1a17fcd8bb3c26a2\tmail-alert\t4\t\tunknown_company;unverified_newgrad\tNot Applied\n2026-10-28\tBaseten\tSoftware Engineer, Compute and Isolation\t\thttps://mail.google.com/mail/u/0/?r=54-baseten#all/1a17ff31483382d9\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\n2026-10-28\tEngramme\tMachine Learning Engineer\t\thttps://mail.google.com/mail/u/0/?r=56-engramme#all/1a1803b69f0dcf9d\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\n2026-10-28\tQuadric\tAI Inference Framework Engineer\t\thttps://mail.google.com/mail/u/0/?r=61-quadric#all/1a1803b69f0dcf9d\tmail-alert\t4\t\thardware_adjacent;unverified_newgrad\tNot Applied\n2026-10-28\tSambaNova\tML Infrastructure Engineer - New Grad\t\thttps://mail.google.com/mail/u/0/?r=62-sambanova#all/1a180a9487409f81\tmail-alert\t5\t\t\tNot Applied\n2026-10-28\tSambaNova\tRuntime Engineer - New Grad\t\thttps://mail.google.com/mail/u/0/?r=65-sambanova#all/1a180a9487409f81\tmail-alert\t4\t\t\tNot Applied\n## SWE (append below last row)\n2026-10-28\tFonzi AI\tApplied AI Engineer\t\thttps://mail.google.com/mail/u/0/?r=20-fonzi-ai#all/1a17aa72c70d1ceb\tmail-alert\t3\t\tunknown_company;unverified_newgrad\tNot Applied\t\t\n2026-10-28\tFortinet\tEarly Careers: Software Development Engineer\t\thttps://mail.google.com/mail/u/0/?r=23-fortinet#all/1a17accbb4f2da6f\tmail-alert\t3\t\t\tNot Applied\t\t\n2026-10-28\tDatabricks\tAssociate Forward Deployed Engineer\t\thttps://mail.google.com/mail/u/0/?r=28-databricks#all/1a17b1511646b82a\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tPerplexity\tMember of Technical Staff (AI Researcher)\t\thttps://mail.google.com/mail/u/0/?r=38-perplexity#all/1a17bf0cece64927\tmail-alert\t5\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tJobverse.io\tMember of the Technical Staff, Pretraining\t\thttps://mail.google.com/mail/u/0/?r=40-jobverse-io#all/1a17bf0cece64927\tmail-alert\t4\t\tverify_company;unverified_newgrad\tNot Applied\t\t\n2026-10-28\tSodalis AI\tSoftware Engineer, Infrastructure\t\thttps://mail.google.com/mail/u/0/?r=41-sodalis-ai#all/1a17c5ea2968a000\tmail-alert\t3\t\trole_ambiguous;unverified_newgrad\tNot Applied\t\t\n2026-10-28\tRetool\tSoftware Engineer, Agent Platform\t\thttps://mail.google.com/mail/u/0/?r=48-retool#all/1a17ff31483382d9\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tClark\tSoftware Engineer, AI\t\thttps://mail.google.com/mail/u/0/?r=49-clark#all/1a17ff31483382d9\tmail-alert\t3\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tRelari\tAI Research Engineer\t\thttps://mail.google.com/mail/u/0/?r=58-relari#all/1a1803b69f0dcf9d\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tCoval\tAI Engineer, Post-Training & Evaluation\t\thttps://mail.google.com/mail/u/0/?r=60-coval#all/1a1803b69f0dcf9d\tmail-alert\t4\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tClark\t2027 Engineering Talent\t\thttps://mail.google.com/mail/u/0/?r=70-clark#all/1a1811724099a9f2\tmail-alert\t3\t\t\tNot Applied\t\t\n2026-10-28\tLightsage\tMember of Technical Staff\t\thttps://mail.google.com/mail/u/0/?r=73-lightsage#all/1a18184fb413ec65\tmail-alert\t3\t\tunknown_company;unverified_newgrad\tNot Applied\t\t\n2026-10-28\tCloudCruise\tMember of Technical Staff\t\thttps://mail.google.com/mail/u/0/?r=75-cloudcruise#all/1a18184fb413ec65\tmail-alert\t3\t\tunknown_company;unverified_newgrad\tNot Applied\t\t\n2026-10-28\tAnthropic\tSecurity Engineer / Research Engineer, RL\t\thttps://job-boards.greenhouse.io/anthropic/jobs/5458420008\tmail-alert\t4\t\trole_ambiguous;unverified_newgrad\tNot Applied\t\t\n2026-10-28\tAnthropic\tResearch Engineer, Chip Design RL\t\thttps://job-boards.greenhouse.io/anthropic/jobs/5459098008\tmail-alert\t5\t\tunverified_newgrad\tNot Applied\t\t\n2026-10-28\tDiscovery Loop\tMember of Technical Staff\t\t\tmail\t\t\tunmatched-update\tReject\t\thttps://mail.google.com/mail/u/0/#all/1a178fb35d9fd612\n2026-10-28\tPoetiq\tMember of the Technical Staff\t\t\tmail\t\t\tunmatched-update\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a17ee56daedcabd\n2026-10-28\thumans&\t\t\t\tmail\t\t\tunmatched-update\tInterview scheduled\t\thttps://mail.google.com/mail/u/0/#all/1a107c50a225a74e\nChange rows: none (the 3 mail updates found no matching sheet row; they are included as flagged appends above \u2014 Discovery Loop \u2192 Reject, Poetiq \u2192 Interview scheduled, humans& \u2192 Interview scheduled; check whether these companies already exist under another name/tab and update in place instead)."
+}
