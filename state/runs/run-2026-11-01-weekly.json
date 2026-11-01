@@ -1,0 +1,26 @@
+{
+ "ts": "2026-11-01T22:11:07Z",
+ "date": "2026-11-01",
+ "kind": "weekly",
+ "scanned": null,
+ "kept": 0,
+ "dropped_by_triage": 0,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 3,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "sheets_writer unreachable (script.google.com 403 from egress proxy) \u2014 3 mail-driven appends NOT written; paste-ready TSV below (SWE tab)",
+  "signal-sync: recruitinginsights.xyz 403 from egress proxy, no browser available \u2014 0 signals, 0 watchlist additions",
+  "sheet read via Drive connector returned only a ~20-row sample per tab (full-sheet funnel/stale-Applied not computable); sample shows only 'Not Applied' rows, all dated 2026-10-01",
+  "fallback: no sheet write; branch/push status see below"
+ ],
+ "manual_sources": [],
+ "digest": "DUE SOON (48h): none hard-dated. Cisco recruiter (Oct 30) asked you to apply via the portal then reply to get the take-home \u2014 you applied (auto-ack Oct 30) but no reply to the recruiter found; reply today. humans& next steps pending (interview held Oct 26; you replied); Poetiq founder interview held Oct 30, awaiting next steps. (Prior weekly noted a humans& 2nd round Nov 2 \u2014 not confirmed in this week's mail; verify.)\nFunnel (mail, 8d): 0 OA, 2 interviews (Poetiq, humans&), 1 rejection (Discovery Loop Oct 26), 1 recruiter (Cisco), 11 alert roles. Sheet funnel not computable: Drive read was a sample only and writes have not landed since 2026-10-01 (Applied rows absent). Referrals tab empty -> no overdue follow-ups, no nudges drafted. Stale Applied >14d: cannot compute.\nScan health: last 7 morning runs scanned 0 every day; every source failed with proxy 403 (egress), the 'kept' counts come from stale fallback input. Not feed rot. Repairs needed (not prunes): Groq, Meta, Modular, SambaNova, SSI (blank Feed URL, careers-page, never hit \u2014 resolve to ATS API URLs once egress works); Mistral, NVIDIA, Reflection (blank URL but Last Hit stamped); Apple/Tesla/Google careers pages are unscrapeable (robots/blocks).\nProposed prunes (not deleted): none on evidence \u2014 Last Hit on ATS rows is 2026-10-01 only because no scan has succeeded since, so >30d is an artifact. If you want a cut: Google and Tesla (unscrapeable, covered by mail alerts).\nSignals: none (source blocked). Watchlist additions: 0.\nNext week: the pipeline is blind \u2014 a month of daily runs has produced nothing because the cloud environment's network policy blocks script.google.com, recruitinginsights.xyz, the ATS APIs and the job lists. Allow those hosts (or switch the environment to a policy that does) before anything else; until then, mail-sweep is the only working lane, and the sheet is drifting from reality. Separately: reply to Cisco, and chase Poetiq/humans& if silent by midweek.\nErrors: sheets_writer unreachable (script.google.com 403 from egress proxy) \u2014 3 mail-driven appends NOT written; paste-ready TSV below (SWE tab); signal-sync: recruitinginsights.xyz 403 from egress proxy, no browser available \u2014 0 signals, 0 watchlist additions; sheet read via Drive connector returned only a ~20-row sample per tab (full-sheet funnel/stale-Applied not computable); sample shows only 'Not Applied' rows, all dated 2026-10-01; fallback: no sheet write; branch/push status see below\nUnwritten appends (SWE tab, TSV):\n2026-11-01\tPoetiq\tMember of the Technical Staff\t\tmail\tInterview scheduled\t2026-10-30T21:00:00Z\thttps://mail.google.com/mail/?authuser=ssmurali@andrew.cmu.edu#all/thread-f:1880419507390888672\tunmatched-update\n2026-11-01\thumans&\t\t\tmail\tInterview scheduled\t\thttps://mail.google.com/mail/?authuser=ssmurali@andrew.cmu.edu#all/thread-f:1878137730373101390\tunmatched-update\n2026-11-01\tDiscovery Loop\tMember of Technical Staff\t\tmail\tReject\t\thttps://mail.google.com/mail/?authuser=ssmurali@andrew.cmu.edu#all/thread-f:1880129369983145490\tunmatched-update",
+ "signals": []
+}
