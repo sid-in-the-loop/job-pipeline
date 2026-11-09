@@ -1,0 +1,111 @@
+{
+ "ts": "2026-11-09T11:41:48Z",
+ "date": "2026-11-09",
+ "kind": "morning",
+ "scanned": 1454,
+ "kept": 20,
+ "dropped_by_triage": 41,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 2,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "sheets_writer blocked",
+  "sheet read sample-only",
+  "newgrad-check fetches blocked"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "\u2605 Apply first: none \u2014 no row could be star-promoted (all 19 queued eligibility checks hit blocked posting hosts \u2192 unverified). Best unverified triage picks, check new-grad fit by hand: Perplexity \u2014 MTS (Software Engineer, Computer) (fit 5, SWE); OpenAI \u2014 Software Engineer, Agent Platform (fit 5, SWE); Anthropic \u2014 Research Engineer, Cybersecurity RL (fit 5, SWE); NVIDIA \u2014 ML Engineer, Data Curation / GeForce G-Assist (fit 4, MLE).\nNew: 20 postings kept (0 from ATS/signals, 1 from lists [Intel], 19 from LinkedIn alerts) + 2 interview rows from mail; 41 dropped by triage; 1454 scanned.\nOA/interview: Nascent \u2014 30-min interview booked Fri Nov 13, 4pm ET (no row matched; added as flagged unmatched-update). Humans& \u2014 extra technical/system-design round, you replied; waiting on their availability (flagged row). No OAs found.\nFollow-ups due: none checked (Referrals empty).\nErrors: (1) sheets_writer unreachable (script.google.com blocked by egress proxy) \u2014 NO sheet write happened; 22 appends are paste-ready in state/pending_sheet_appends_2026-11-09.tsv (committed); earlier pending files 11-07/11-08 (x2) also still unpasted. Interview status for Nascent/Humans& must be set on their existing rows by hand if present (\"change row: Nascent -> Interview scheduled; Humans& -> Interview scheduled\"). (2) Sheet read via Drive connector returned only a 20-row sample per tab: known.txt empty, open_oas/sheet_index empty \u2014 dedupe relied on state/seen.txt only, existing-row matching and DUE SOON cross-check skipped. (3) All 31 ATS feeds 403 from proxy; 11 careers-page watchlist entries not fetched (Google, Tesla, Apple, Groq, Meta, Mistral, Modular, NVIDIA, Reflection, SambaNova, SSI). (4) newgrad-check: 19/19 fetch failures (all unclear \u2192 flagged unverified_newgrad). (5) No Calendar entry created for Nascent interview (no calendar write attempted). Config: config.seed.json, ledger state/seen.txt."
+}
