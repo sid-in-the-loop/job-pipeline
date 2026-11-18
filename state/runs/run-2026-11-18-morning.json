@@ -1,0 +1,109 @@
+{
+ "ts": "2026-11-18T11:40:34Z",
+ "date": "2026-11-18",
+ "kind": "morning",
+ "scanned": 1500,
+ "kept": 8,
+ "dropped_by_triage": 58,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 4,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "sheet writer 403; sheet read via Drive sample only"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "\u26a0 DUE SOON (48h): Cisco \u2014 AI Research Scientist III (Foundation AI) interview TONIGHT 2026-11-18 7:00 PM ET (with Amin Karbasi); email asks to confirm attendance within 24h and no sent reply was found. Supersedes the earlier 11-23 self-schedule date.\nAlso: Steadyworks interview confirmed Tue 2026-11-24 5:30pm ET (you proposed the slot; no action).\n\u2605 Apply first: none \u2014 0 starred. (2 alert roles were starred by triage but are unverified LinkedIn alerts, so never starred: OpenAI \u2014 Software Engineer, Platform Systems (fit 4); Coframe \u2014 Agent Platform Engineer (fit 4). Both worth a manual look; location unknown.)\nNew: 8 added (0 from signals/ATS, 5 from lists, 3 from alerts); 58 dropped by triage; 1500 scanned. 3 verify checks all failed to fetch \u2192 unclear.\nOA/interview: Cisco interview tonight 7pm ET; Steadyworks 11-24 5:30pm ET; Humans& round held 11-17 (you replied); Perplexity ack received (11-16).\nFollow-ups due: none checked (Referrals tab empty).\nErrors:\n- Sheet writer unreachable (script.google.com CONNECT 403 from sandbox proxy) \u2014 NO sheet writes made. Sheet read only via Drive connector, which returns ~20 sample rows per tab, so known.txt/sheet_index/open_oas were empty this run (dedupe relied on state/seen.txt only; mail updates could not be aimed at rows).\n- 31 ATS feeds failed with 403 from the egress proxy (Anyscale, Baseten, Cerebras, Cohere, CoreWeave, Databricks, etched, Fireworks AI, Kodiak, Lambda, Mercor, Modal, nuro, Scale AI, Snowflake, Together AI, Waymo, Zoox, Abridge, Anthropic, Cognition AI, Decagon, OpenAI, ElevenLabs, Microsoft, Perplexity, Cursor, Glean, xAI, Thinking Machines, Cartesia). Careers-page rows not fetched: Google, Tesla, Apple, Groq, Meta, Mistral, Modular, NVIDIA, Reflection, SambaNova, SSI. No Calendar entries made (Cisco interview tonight likely already on your calendar via the invite).\n- Paste into SWE tab (cols: Company, Role, Location, Link, Status, Date Added, Source, Fit, Comp, Flags, OA Deadline, Last Email, Notes; leading 'SWE' = tab):\nSWE\tQuaverEd\tJunior Developer - AI Team\tNashville, TN\thttps://recruiting.paylocity.com/Recruiting/Jobs/Details/4669574\tNot Applied\t2026-11-18\tspeedyapply\t3\t\t\t\t\t\nSWE\tVerkada\tBackend Engineer - Connectivity\tSan Mateo, CA\thttps://job-boards.greenhouse.io/verkada/jobs/5296748007\tNot Applied\t2026-11-18\tspeedyapply\t3\t\t\t\t\t\nSWE\tTwilio\tSoftware Engineer - Platform Access - L2\tRemote - USA\thttps://job-boards.greenhouse.io/twilio/jobs/8026211\tNot Applied\t2026-11-18\tspeedyapply\t3\t\tstale\t\t\t\nSWE\tFortinet\tEarly Careers Software Developer\tSunnyvale, CA\thttps://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24983?utm_source=Simplify&ref=Simplify\tNot Applied\t2026-11-18\tsimplify\t3\t\t\t\t\t\nSWE\tMirantis\tSoftware Engineer New Grad - Backend - Go\tRaleigh, NC\thttps://jobs.smartrecruiters.com/Mirantis/744000162186029?utm_source=Simplify&ref=Simplify\tNot Applied\t2026-11-18\tsimplify\t3\t\t\t\t\t\nSWE\tBrain Co.\tAI Platform Engineer, Backend\t\thttps://www.linkedin.com/jobs/view/4369403419/\tNot Applied\t2026-11-18\tmail-alert\t3\t\tlocation_unknown;unverified_newgrad\t\t\t\nSWE\tCoframe\tAgent Platform Engineer\t\thttps://www.linkedin.com/jobs/view/4440168798/\tNot Applied\t2026-11-18\tmail-alert\t4\t\tlocation_unknown;unverified_newgrad\t\t\t\nSWE\tOpenAI\tSoftware Engineer, Platform Systems\t\thttps://www.linkedin.com/jobs/view/4417167204/\tNot Applied\t2026-11-18\tmail-alert\t4\t\tlocation_unknown;unverified_newgrad\t\t\t\n- Change rows (check whether these rows already exist from earlier pasted batches before adding): change row: Cisco / AI Research Scientist \u2014 Status=Interview scheduled, OA Deadline=2026-11-18, Last Email=https://mail.google.com/mail/u/0/#all/1a1ebf41aa1f4d0a; change row: Steadyworks / Founding Research Engineer \u2014 Status=Interview scheduled, Last Email=https://mail.google.com/mail/u/0/#all/1a1ecd4a1e503d4d; change row: Humans& \u2014 Status=Interview scheduled, Last Email=https://mail.google.com/mail/u/0/#all/1a1ebe96ae4a8e22; change row: Perplexity \u2014 Status=Applied, Last Email=https://mail.google.com/mail/u/0/#all/1a1e5eac2e571a8f"
+}
