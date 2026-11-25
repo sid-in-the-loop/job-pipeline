@@ -1,0 +1,108 @@
+{
+ "ts": "2026-11-25T11:41:23Z",
+ "date": "2026-11-25",
+ "kind": "morning",
+ "scanned": 1526,
+ "kept": 7,
+ "dropped_by_triage": 38,
+ "dropped_by_verify": 0,
+ "verified_out": [],
+ "dropped_by_location": 0,
+ "location_out": [],
+ "updated": 3,
+ "ambiguous_matches": [],
+ "status_unwritable": [],
+ "stars": [],
+ "untriaged": [],
+ "errors": [
+  "ats:Anyscale: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Baseten: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Cerebras: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Cohere: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:CoreWeave: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Databricks: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:etched: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Fireworks AI: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Kodiak: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Lambda: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Mercor: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Modal: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:nuro: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Scale AI: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Snowflake: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Together AI: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Waymo: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Zoox: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Abridge: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Anthropic: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Cognition AI: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Decagon: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:OpenAI: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:ElevenLabs: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Microsoft: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Perplexity: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Cursor: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Glean: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:xAI: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Thinking Machines: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>",
+  "ats:Cartesia: <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>"
+ ],
+ "manual_sources": [
+  {
+   "company": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Tesla",
+   "url": "https://www.tesla.com/careers/search/",
+   "type": "careers-page"
+  },
+  {
+   "company": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+   "type": "careers-page"
+  },
+  {
+   "company": "Groq",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Meta",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Mistral",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Modular",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "Reflection",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SambaNova",
+   "url": "",
+   "type": "careers-page"
+  },
+  {
+   "company": "SSI",
+   "url": "",
+   "type": "careers-page"
+  }
+ ],
+ "digest": "\u2605 Apply first: none starred by triage. Closest: Anthropic \u2014 Research Engineer, Beneficial Deployments (fit 5, from job alert, unverified new-grad); Fluidstack \u2014 SWE, Applied AI (fit 4, unverified).\n\u26a0 DUE SOON: Cisco \u2014 AI Research Scientist III: recruiter wants a chat time, you haven't replied since 11-24 ask (by 2026-12-01, assumed). Steadyworks \u2014 followup interview doc shared after 11-24 virtual onsite, no reply yet (by 2026-12-01, assumed). humans& onsite Thu 2026-12-03 9:30 AM PT, confirmed \u2014 no action beyond travel.\nNew: 7 added (0 ATS/signals, 1 lists, 6 alerts); 38 dropped by triage. 1526 scanned. 6 alert roles unverified (all fetches failed).\nOA/interview: 3 interview events (Cisco, Steadyworks, humans&); 0 OAs.\nFollow-ups due: none checked.\nErrors: (1) Sheets writer unreachable (proxy 403 on script.google.com) -> sheet NOT updated; paste TSV below, and these rows are unmatched-update appends: Cisco, Steadyworks, humans& should be 'change row'/new rows with Status=Interview scheduled. (2) Sheet read degraded: Drive connector gave only a 20-row sample, so known.txt/open_oas/sheet_index were empty; dedupe relied on seen.txt only (config.source seed, ledger 4326 keys); mail-sweep couldn't cross-check open OAs. (3) 31 ATS/API feeds blocked by proxy 403 (Anyscale, Baseten, Cerebras, Cohere, CoreWeave, Databricks, etched, Fireworks, Kodiak, Lambda, Mercor, Modal, nuro, Scale, Snowflake, Together, Waymo, Zoox, Abridge, Anthropic, Cognition, Decagon, OpenAI, ElevenLabs, Microsoft, Perplexity, Cursor, Glean, xAI, Thinking Machines, Cartesia); 11 careers pages unfetched. (4) newgrad-check: all 6 unverified (fetch_failed).\nPaste-ready appends:\n[SWE] (cols: Company, Role, Location, Link, Status, Date Added, Source, Fit, Comp, Flags, OA Deadline, Last Email, Notes)\nwebAI\tJr Software Developer\tAustin, TX\thttps://jobs.ashbyhq.com/webAI/571ff25a-c3ad-44f5-8f35-f4a7944899df\tNot Applied\t2026-11-25\tspeedyapply\t3\t\t\t\t\t\nRadical AI\tSoftware Engineer, Agent Platform\t\thttps://mail.google.com/mail/u/0/?r=1-radical-ai#all/1a20eb601035383a\tNot Applied\t2026-11-25\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nFluidstack\tSoftware Engineer, Applied AI\t\thttps://mail.google.com/mail/u/0/?r=2-fluidstack#all/1a20ad94382f05d4\tNot Applied\t2026-11-25\tmail-alert\t4\t\tunverified_newgrad\t\t\t\nWisdomAI\tSoftware Engineer, Backend\t\thttps://mail.google.com/mail/u/0/?r=8-wisdomai#all/1a20e4828314791f\tNot Applied\t2026-11-25\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nBasis\tMember of Technical Staff - Atlas\t\thttps://mail.google.com/mail/u/0/?r=10-basis#all/1a20a6b64fbcf59f\tNot Applied\t2026-11-25\tmail-alert\t3\t\tunverified_newgrad\t\t\t\nAnthropic\tResearch Engineer, Beneficial Deployments\t\thttps://mail.google.com/mail/u/0/?r=13-anthropic#all/1a20bb6d8c2fe4b7\tNot Applied\t2026-11-25\tmail-alert\t5\t\tunverified_newgrad\t\t\t\nCisco\tAI Research Scientist III (Req #2025872)\t\t\tInterview scheduled\t2026-11-25\tmail\t\t\tunmatched-update\t2026-12-01\thttps://mail.google.com/mail/u/0/#all/1a18e44741c21864\t\nSteadyworks\tFounding Research Engineer, RL environments and evals\t\t\tInterview scheduled\t2026-11-25\tmail\t\t\tunmatched-update\t2026-12-01\thttps://mail.google.com/mail/u/0/#all/1a20fb08867ba995\t\nhumans&\t\t\t\tInterview scheduled\t2026-11-25\tmail\t\t\tunmatched-update\t\thttps://mail.google.com/mail/u/0/#all/1a1fcaf4b750a0bb\t\n[MLE] (cols: Company, Role, Location, Link, Status, Date Added, Source, Fit, Comp, Flags, OA Deadline, Last Email, Notes)\nAMD\tSoftware Engineer- GPU/AI/ML\t\thttps://mail.google.com/mail/u/0/?r=9-amd#all/1a20dda458acd419\tNot Applied\t2026-11-25\tmail-alert\t3\t\tunverified_newgrad\t\t\t"
+}
